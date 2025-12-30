@@ -1,0 +1,384 @@
+﻿* {
+    cursor: default;
+    font-size: small;
+    color: #4d4d4d;
+}
+
+html, body {
+    height: 100%;
+    width: 100% !important;
+    font-family: 'Tahoma', sans-serif; /*'Trebuchet MS', sans-serif*/
+    font-size: medium;
+    font-weight: normal;
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(AliceBlue,CornflowerBlue);
+    /*--background-color: aliceBlue;*/
+    /*--background-image: url("/_images/background.jpg");*/
+}
+
+table {
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+th, td {padding: 0px;}
+
+/* TOP ------------------------------------------------------------------------------------------------------------------------ */
+#layout {
+    height: 100%;
+    width: 100%;
+    border-collapse: collapse;
+    border: 0px;
+}
+#layout_top {
+    height: 50px;
+    box-shadow: 0 4px 3px -3px silver;
+}
+[id^=layout_top_] {
+    font-weight: bold;
+    padding: 8px;
+    vertical-align: middle;
+}
+
+#layout_top_logo {
+    text-align:center;
+}
+
+#layout_top_logo > img {
+    height: 35px;
+    width: 35px;
+}
+#layout_top_title {font-size: 24px;}
+
+
+#layout_top_profile div {
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #ebf5ff;
+    border-radius: 50%;
+    border: 2px solid royalblue;
+    background-color: white;
+    color: royalblue;
+}
+#layout_top_profile a {
+    text-decoration: none;
+
+}
+
+/* MENU ------------------------------------------------------------------------------------------------------------- */
+#layout_menu {
+    white-space: nowrap;
+    vertical-align: top;
+    padding: 10px;
+}
+/* CONTENT ---------------------------------------------------------------------------------------------------------- */
+#layout_contenido {
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+    position: relative;
+}
+/* CONSULTAS -------------------------------------------------------------------------------------------------------- */
+#ventana {
+    max-width: 100%;
+}
+
+#ventana, #layout_menu_div, .ventana, .tarjeta {
+    display: inline-block;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.16), 0 2px 3px rgba(0,0,0,0.23);
+    text-align: left;
+    border-collapse: collapse;
+    padding: 8px;
+}
+
+.tarjeta {
+    margin: 8px 5px 0px 5px;
+    cursor: pointer;
+    position:relative;
+    vertical-align:middle;
+    text-align:center;
+}
+.tarjeta_header   {margin:10px 0px 20px 0px; font-size:large; cursor:pointer;}
+.tarjeta_icon     {display:block; margin: auto; cursor:pointer;}
+.tarjeta_footer   {padding:0px; width:100%; text-align:left;}
+.tarjeta_summary  {font-size:small;}
+.tarjeta_details  {font-size:small; width:100%; text-align:left; padding:0px;}
+.tarjeta_footer a {color: royalblue;}
+
+.cal_dia_sem  {background-color:gainsboro; text-align:center; padding:3px; width:14.28%;}
+.cal_disfrute {font-size:large; color:Green; font-weight: bold;}
+.cal_dia_lbl  {font-size:x-small; padding-bottom:2px;}
+.cal_dia_hlp  {font-size:x-small; vertical-align:middle; border-radius:5px; padding:3px; margin:0px 3px 3px 3px; border: 1px solid grey;}
+.cal_dia_apr  {font-size:x-small; vertical-align:top;    background-color:royalblue; color:white; border: 1px solid royalblue; display:inline-block;}
+
+#cal tr td        {height:45px;font-size:x-small; vertical-align:top;}
+#cal #cf,.cal_fer {background-color:#FAA0A0;}
+#cal #cs,.cal_sol {background-image: repeating-linear-gradient(45deg,lightgreen 0px,lightgreen 2px,transparent 2px,transparent 6px);}
+#cal #csf         {background-image: repeating-linear-gradient(45deg,lightgreen 0px,lightgreen 2px,transparent 2px,transparent 6px);background-color:#FAA0A0;}
+
+#layout_menu_div {
+    display: flex; flex-direction: column;
+    width: 250px;
+    height:97%;
+}
+
+#ventana > thead > tr > td > table, #ventana > tfoot > tr > td > table {
+    width: 100%;
+}
+
+#ventana > thead > tr > td {
+    padding-bottom: 10px;
+}
+
+#consultar_titulo {
+    font-size: large;
+    font-weight: bold;
+}
+
+#filtros > tbody > tr > td {
+    padding: 0px 5px 5px 0px;
+    font-weight: bold;
+}
+#filtros > tbody > tr > td > span {
+    white-space: nowrap;
+}
+
+.consultar > tbody > tr > th {
+    background-color: #ebf5ff;
+    padding: 5px;
+}
+
+.consultar > tbody > tr > td,
+.editar    > tbody > tr > td, 
+[id^="TR_"] > td{
+    padding: 5px;
+}
+
+.label, .label_left, .label_top {
+    font-weight: bold;
+    white-space:nowrap; 
+}
+
+.label_top {    
+    padding-top:5px; padding-bottom: 5px;
+}
+
+.label_left {
+    vertical-align:text-top !important;
+    padding-top:10px !important;
+    padding-bottom:10px !important;
+}
+
+.consultar > tbody > tr {
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+    min-height: 33px;
+    height: 33px;
+}
+
+.consultar > tfoot > tr > td,
+.editar > tfoot > tr > td 
+{
+    padding-top: 10px;
+}
+
+.grupo {
+    background-color: #D6EAF8; /*whitesmoke;*/
+    font-weight: bold;
+    padding-left: 10px;
+}
+.grupo > td {
+    padding-left:6px;
+}
+.grupo > td:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.grupo > td:last-child {
+    padding-left:6px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#paginadores {
+    text-align: right;
+}
+
+[id^=paginador_] {
+    white-space: nowrap;
+    text-align: center;
+    height: 100%;
+    display: inline;
+}
+
+#PAGINADOR {
+    vertical-align: top;
+}
+
+#foot_acciones {
+    white-space: normal;
+    vertical-align: middle;
+}
+
+#chart-container {
+    width: 100%;
+    height: 450px;
+}
+
+/*cell phones*/
+@media only screen and (max-width:360px)   /*decia 480*/
+{
+    #layout_menu {display:none; text-align:center;}
+    #layout_menu_div {width:70%; margin-left:12vw; margin-right:12vw;}
+    #layout_top_menu {display: table-cell;}
+    #layout_top_title {font-size: 14px;}
+    #layout_top_logo {padding-left:5px;}
+    #filtros > tbody > tr > td > span {white-space:normal;}
+    .scrM {display:none;}
+    .scrL {display:none;}
+    .label_left {display: none;}
+    .caracteristicas tr td,.estructura tr th, .estructura tr td, .columna_detalles tr td {font-size:x-small !important; word-break:break-all;}    
+   .consultar > tbody > tr > td,
+   .editar    > tbody > tr > td, 
+   [id^="TR_"] > td{
+     padding: 2px;
+   }
+}
+/*tablets*/
+@media all and (min-width: 361px) and (max-width: 800px) {
+    #layout_menu { display:none; text-align:center;}
+    #layout_menu_div {width:40%; margin-left:30vw; margin-right:30vw;}
+    #layout_top_menu {display: table-cell;}
+    #layout_top_title {font-size: 18px;}
+    #layout_top_logo {padding-left:5px;}
+
+    .scrL {display:none;}
+    .label_top {display: none;}
+    
+    #filtros tr {display: inline-block;}
+
+    #ventana > tbody > tr > td:last-child > label {display: none;}
+    #paginadores {white-space: nowrap;}
+    .caracteristicas tr td,.estructura tr th, .estructura tr td {font-size:x-small !important; word-break:break-all;}
+
+    #chart-container {width: 85vw;}
+}
+/*monitors*/
+@media all and (min-width: 801px) {
+    #layout_menu {display:table-cell;}
+    #layout_menu_div {width:250px;}
+    #layout_top_menu {display: none;}
+    #layout_top_logo {padding-left:15px;}
+
+    .label_top {
+        display: none;
+    }
+    #filtros tr {display: inline-block;}
+    #ventana > tbody > tr > td:last-child > label {
+        display: none;
+    }
+    #paginadores {white-space:nowrap;}
+}
+
+#msg_ok, #msg_warning, #msg_error {
+    margin-top: 15px;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: small;
+    font-weight:bold;
+    text-align:left;
+}
+#msg_ok      {background-color: palegreen; color: green;}
+#msg_warning {background-color: #ffffb2; color: red;}
+#msg_error   {background-color: #ff6666; color: white;
+}
+
+/* menu ------------------------------------------------------------------------------------------------------------------------------------ */
+#menu>div {
+    background-color: white;
+    text-align: left;
+    cursor: pointer;
+}
+#menu>div summary, #menu>div details, span, #menu>div a {
+    cursor: pointer;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+details, details > div {
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#menu>div > div {
+    border-radius: 8px;
+    display: block;
+    padding: 8px;
+}
+
+#menu>div > details:hover, #menu>div > div:hover                                       {background-color:#F5F5F5;}
+#menu>div > details > div:hover, #menu>div > details > details:hover                   {background-color:#E8E8E8;}
+#menu>div details > details > div:hover, #menu>div > details > details > details:hover {background-color:#DCDCDC;}
+#menu>div details > details > details > div:hover                                      {background-color:#D0D0D0;}
+
+.menu_item, details > div > a, #menu>div > div {
+    vertical-align: top;
+    padding-top:5px;
+}
+summary > div > span, #menu>div > div > span {
+    display: inline-block !important;
+}
+
+#menu>div > div > a {
+    vertical-align: bottom;
+    padding: 8px 8px 8px 0px;
+    
+}
+
+#menu>div a {
+    display:inline-block;
+    text-decoration:none;
+}
+
+summary > div {
+  display: inline-block;
+  width: calc(100% - 50px);
+  vertical-align: middle;
+}
+/* ----------------------------------------------------------------------------------------------------------------------------------------- */
+#layout_top_inbox {position: relative;}
+#layout_top_inbox a span {color:white;}
+
+.pendientes_inbox {
+    background-color:red;
+    color:white;
+    font-size:x-small;
+    font-weight:bold;
+    height:12px;
+    border-radius: 12px;
+    text-align:center;
+    padding:2px;
+    margin:0px;
+    vertical-align:middle;
+    min-width:12px;
+    position: absolute;
+    top: 12px;
+    right: 4px;
+}
+
+.pendientes_inbox:empty {
+    display:none;
+}
+
+.caracteristicas tr th, .caracteristicas tr td { padding: 3px; border: 0px;}
+.diff {font-size:x-small; background-color:yellow;}
+.estructura {width:100%;}
+.estructura tr th { padding: 3px; border: 1px solid silver; background-color:gainsboro;}
+.estructura tr td { padding: 3px; border: 1px solid silver;}
+

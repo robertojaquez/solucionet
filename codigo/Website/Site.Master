@@ -1,0 +1,93 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Website.Site" %>
+
+<!DOCTYPE html>
+<html lang="en-US" translate="no">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%=ConfigurationManager.AppSettings["appname"]%></title>
+    <link href="/_styles/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <script src="/_js/jquery/jquery-3.2.1.min.js" asp-append-version="true"></script>
+    <script src="/_js/jquery/jquery-ui.js"></script>
+    <script src="/_js/select2/select2.full.js" asp-append-version="true"></script>
+    <script src="/_js/sweetalert/sweetalert.min.js" asp-append-version="true"></script>
+    <link rel="stylesheet" type="text/css" href="/_styles/paginas.css"  asp-append-version="true" />
+    <link rel="stylesheet" type="text/css" href="/_styles/controles.css" asp-append-version="true"/>
+    <link rel="stylesheet" type="text/css" href="/_styles/reportes.css" asp-append-version="true"/>
+    <link rel="stylesheet" type="text/css" href="/_js/jquery/jquery-ui.css" asp-append-version="true"/>
+    <link rel="stylesheet" type="text/css" href="/_js/select2/select2.css" asp-append-version="true"/> 
+</head>
+<body>
+    <table id="layout" cellpadding="0" cellspacing="0" margin="0" border="0" width="100%" height="100%">
+        <tr id="layout_top">
+          <td colspan="2" style="background-image: url('/_images/cintillo.png'); background-size: 100% 100%;" >
+                <table cellpadding="0" cellspacing="0" margin="0" border="0" width="100%" style="border-collapse:collapse;">
+                    <tr>
+                        <td width="1" id="layout_top_menu"><img src="/_images/menu.png" onclick="menuTogle()"></td>
+                        <td width="1" id="layout_top_logo"><img src="/_images/logo.png"/></td>
+                        <td width="*" id="layout_top_title"><%=ConfigurationManager.AppSettings["appname"]%><%=(string.IsNullOrEmpty(Session["inventario"] as string)?"":" - "+Session["inventario"].ToString())%></td>
+                        <td width="1" id="layout_top_inbox"><%=(string.IsNullOrEmpty(Session["id_usuario"] as string)?"":"<a href='/paginas.aspx?pag=Buzón de Mensajes'><img src='/_images/mail.png'/></a><div class='pendientes_inbox'>"+Session["inbox_conteo_pendientes"].ToString())%></div></td>
+                        <td width="1" id="layout_top_profile"><%=(string.IsNullOrEmpty(Session["id_usuario"] as string)?"":"<div><a href='/paginas.aspx?pag=Perfil del usuario'>"+Session["iniciales"].ToString()+"</div></a>")%></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+          <% if (!string.IsNullOrEmpty(Session["menu"] as string)) { %>
+            <td width="1" align="center" id="layout_menu">
+              <div id="layout_menu_div">
+                  <div style="flex-grow: 1;">
+                    <%=Session["menu"] %>
+                  </div>
+                  <div>
+                    <div id="menu">
+                      <div>
+                        <div><img src="/_images/logout.png"><a href="https://www.google.com">Salir del sistema</a></div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </td>
+          <% } %>
+          <td width="*" id="layout_contenido">
+            <form id="mainForm" runat="server" enctype="multipart/form-data">
+                <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                </asp:ContentPlaceHolder>
+            </form>
+          </td>
+        </tr>
+    </table>
+<script>
+function menuTogle() {
+        var men = document.getElementById("layout_menu");
+        var ven = document.getElementById("layout_contenido");
+
+        if (!(men.classList.contains("dummy"))) {
+            // primera vez
+            men.classList.add("dummy");
+            if (window.screen.availWidth < 800) {
+                men.style.display = "table-cell";
+                ven.style.display = "none";
+            } else {
+                men.style.display = "none";
+                ven.style.display = "table-cell";
+            }
+        } else {
+            // segunda vez en adelante
+            if (men.style.display === "none") {
+                men.style.display = "table-cell";
+                if (window.screen.availWidth < 800) {
+                    ven.style.display = "none";
+                } else {
+                    ven.style.display = "table-cell";
+                }
+            } else {
+                men.style.display = "none";
+                ven.style.display = "table-cell";
+            }
+        }
+    }
+    //document.body.addEventListener("wheel", e => {if (e.ctrlKey) e.preventDefault(); }, { passive: false }); //prevent zoom in/out
+</script>
+</body>
+</html>

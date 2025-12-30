@@ -1,0 +1,371 @@
+﻿    label {padding-bottom: 3px; font-weight: bold !important;}
+
+    /* inputs */
+    .hora, .fecha, .text, input[type="text"], input[type="password"], input[type="date"], input[type="number"], input[type="tel"], input[type="time"], input[type="file"], input[type="range"], select, textarea {
+        padding: 0px 2px 0px 5px;
+        background-color: HoneyDew !important;
+        border: 1px solid silver;
+        border-radius: 4px;
+        cursor: auto;
+        font-family: 'Trebuchet MS', sans-serif;
+        font-size: small;
+        font-weight: normal;
+        color: #4d4d4d;
+    }
+
+    input[type="text"], input[type="password"], input[type="date"], input[type="number"], input[type="tel"], input[type="time"], input[type="range"], select {
+        height: 28px;
+    }
+
+    /* el icono de auto-refresh con su animacion*/
+    #ar {
+      height:24px; width:24px; vertical-align:middle;
+      animation: cssAnimation 0s 0.3s forwards;
+      visibility: visible;
+    }
+    @keyframes cssAnimation {
+      to   {visibility: hidden;}
+    }
+    /* hasta aqui el auto-refresh*/
+
+    input[type="file"] {padding-top:4px; padding-bottom:4px;}
+
+    input[maxlength="2"] {width: 2.5em;}
+    input[maxlength="3"] {width: 3em;}
+    input[maxlength="4"] {width: 3.5em;}
+    input[maxlength="5"] {width: 4em;}
+    input[maxlength="6"] {width: 4em;}
+    input[maxlength="8"] {width: 5em;}
+    input[maxlength="9"] {width: 5em;}
+    input[maxlength="10"] {width: 7em;}
+    input[maxlength="11"] {width: 7em;}
+    input[maxlength="12"] {width: 7.5em;}
+    input[maxlength="13"] {width: 7.5em;}
+    input[maxlength="15"] {width: 8em;}
+    input[maxlength="16"] {width: 8em;}
+    input[maxlength="18"] {width: 10em;}
+    input[maxlength="20"] {width: 12em;}
+    input[maxlength="25"] {width: 14em;}
+    input[maxlength="50"] {width: 25em;}
+    input[maxlength="75"] {width: 35em;}
+    input[maxlength="100"] {width: 98%;}
+    input[maxlength="150"] {width: 98%;}
+    input[maxlength="200"] {width: 98%;}
+    input[maxlength="250"] {width: 98%;}
+
+    input[type="range"] {width: 98%;}
+    input[type="date"] {width: 7.5em;}
+    input[type="time"] {width: 6.25em;}
+    textarea {width: 98%; height: 6em; min-width:260px;}
+
+    input[type=checkbox] {
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        -o-appearance: none;
+        outline: none;
+        content: none;
+    }
+
+    input[type=checkbox]:before {
+        content: "✓";
+        font-size: x-small;
+        color: transparent !important;
+        display: block;
+        padding: 0px !important;
+        border: 1px solid silver;
+        background-color: honeydew;
+        width: 16px;
+        height: 16px;
+        border-radius: 3px;
+        text-align: center;
+    }
+
+    input[type=checkbox]:checked:before {
+        color: black !important;
+    }
+
+    input[type="radio"] {
+        accent-color: green;
+    }
+
+    /* asp:buttons (no cojen imagenes facilmente) */
+    .boton {
+        background-color: #6384e6;
+        color: white;
+        border: 0px;
+        padding: 8px 10px 8px 10px;
+        cursor: pointer;
+        border-radius: 5px;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    /* botones solo la imagen */
+    [name=BTN_REGRESAR], [name=BTN_REGRESAR] > span,
+    [name=BTN_VOLVER], [name=BTN_VOLVER] > span,
+    [name=BTN_CERRAR], [name=BTN_CERRAR] > span,
+    [name=BTN_AYUDA], [name=BTN_AYUDA] > span,
+    [name^=BTN_DET_], [id^=BTN_DET_] > span
+    {
+        background-color: white;
+        color: royalblue;
+        cursor: pointer;
+        padding: 0px;
+        margin: 0px;
+        border: 0px;
+    }
+    
+/* botones regulares */
+[name=BTN_BORRAR], [name=BTN_AGREGAR], [name=BTN_IMPRIMIR], [name^=BTN_REPORTE_], [name=BTN_EXPORTAR], [name^=BTN_ACCION_], [name=BTN_INSERTAR], [name=BTN_MODIFICAR], 
+[name=BTN_ACEPTAR], [name=BTN_CANCELAR], [name=BTN_REENVIAR], [name=BTN_BUSCAR]
+
+{
+    background-color: #6384e6;
+    color: white;
+    border: 0px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center !important;
+    vertical-align: middle;
+    margin: 0px 4px 4px 0px;
+    padding-top: 3px;
+    padding-left: 8px;
+    padding-right: 10px;
+}
+
+[name^=BTN_ACCION_], [name=BTN_BUSCAR] { min-height: 31px;}
+[name^=BTN_]:disabled {
+    background-color:gainsboro;
+}
+
+/* botones regulares - la imagen */
+[name=BTN_REENVIAR] > span,
+[name=BTN_ACEPTAR] > span,
+[name=BTN_AGREGAR] > span,
+[name=BTN_INSERTAR] > span,
+[name=BTN_MODIFICAR] > span,
+[name=BTN_CANCELAR] > span,
+[name=BTN_BORRAR] > SPAN,
+[name=BTN_IMPRIMIR] > SPAN,
+[name^=BTN_REPORTE_] > SPAN,
+[name=BTN_EXPORTAR] > SPAN,
+[name^=BTN_ACCION_] > SPAN {
+    color: white;
+    height: 100%;
+    vertical-align: middle;
+    padding-bottom: 3px;
+    padding-right: 3px;
+}
+
+[name=BTN_FILTRAR], [name=BTN_LIMPIAR]{
+    background-color: #6384e6;
+    color: white;
+    border: 0px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center !important;
+    vertical-align: middle;
+    padding: 2px 1px 0px 2px;
+}
+
+[name=BTN_FILTRAR] > span, [name=BTN_LIMPIAR] > span {
+    color: white;
+    height: 100%;
+    vertical-align: middle;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-bottom: 4px;
+    padding-right: 0px;
+    height: 27px;
+    padding-top: 2px;
+}
+
+    [name^=BTN_ORD_] {
+        background-color: #ebf5ff;
+        color: #4d4d4d;
+        font-weight: bold;
+        border: 0px;
+        cursor: pointer;
+        border: none;
+        padding-left: 12px;
+    }
+
+.sort_asc  {background: url("../_images/sort_asc.png") no-repeat left center;}
+.sort_desc {background: url("../_images/sort_desc.png") no-repeat left center;}
+.sort_none {background: url("../_images/sort_none.png") no-repeat left center;}
+
+
+[name^=LINK_VER_], #lista_pendientes li a, #link_otp {
+    background-color: inherit;
+    color: royalblue;
+    font-weight: bold;
+    border: 0px;
+    cursor: pointer;
+    text-decoration: underline;
+    border: none;
+    white-space: normal; 
+    text-align:inherit;
+    white-space: pre-wrap; /* CSS3 */    
+    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */    
+    white-space: -o-pre-wrap; /* Opera 7 */    
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+
+.lista_pendientes { list-style:none; padding:0px;}
+.lista_pendientes li {padding: 10px 10px 0px 10px; }
+.lista_pendientes li a {color: royalblue; font-weight: bold; cursor: pointer; border: none;}
+
+.TAB_SEL, .TAB_NOSEL, .TAB_NOTAB {
+    vertical-align: bottom;
+    border: 0px;
+    padding: 0px !important;
+    white-space:nowrap;
+}
+
+[name^=BTN_TAB_], .TAB_NOTAB > div {
+    height: 32px;
+    min-height: 32px;
+    max-height: 32px;
+}
+
+[name^=BTN_TAB_] {
+    line-height: 85%; /*reduce el espacio entre lineas de los los tabs, no tocar*/
+    display: block;
+    cursor: pointer;
+    font-size: smaller;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-left: 1px solid silver;
+    border-top: 1px solid silver;
+    border-right: 1px solid silver;
+}
+
+.TAB_NOTAB > div {
+    border-bottom: 1px solid silver;
+}
+
+.TAB_SEL > [name^=BTN_TAB_] {
+    font-weight: bold;
+    background-color: white;
+    border-bottom: 1px solid white;
+}
+
+.TAB_NOSEL > [name^=BTN_TAB_] {
+    border-bottom: 1px solid silver;
+    background-color: gainsboro;
+}
+
+.select2-selection {
+    overflow: hidden;
+}
+
+.select2-selection__rendered {
+    white-space: normal;
+    word-break: break-all;
+}
+
+select[name=PAGINADOR] {height: 28px; width:70px; min-width:70px; max-width:70px; vertical-align:top; font-size: x-small !important;}
+input[name=PAGINADOR]  {height: 28px; width:36px; min-width:36px; max-width:36px; vertical-align:top; text-align:center;}
+
+[name^=PAGINA_], [name^=PAGINA_] > span,[name^=BTN_DET_], [name^=BTN_DET_] > span {
+    background-color: white;
+    color: royalblue;
+    cursor: pointer;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+#link_otp {
+    float: left;
+    padding-top:8px;
+    cursor: pointer;
+}
+
+.btn_label {line-height:26px;vertical-align:top !important;}
+
+@media only screen and (max-width: 360px)
+{
+    [name=BTN_AGREGAR], [name=BTN_IMPRIMIR], [name^=BTN_REPORTE_], [name=BTN_BORRAR], [name=BTN_EXPORTAR] {padding: 2px 6px 2px 3px  !important;} /*decia 2 0 0 2*/
+    [name=BTN_AGREGAR] >span, [name=BTN_IMPRIMIR] >span, [name^=BTN_REPORTE_] >span, [name=BTN_BORRAR] >span, [name=BTN_EXPORTAR] >span {padding: 0px;} /*nuevo*/
+    .btn_label {display: none;}
+    #paginadores {text-align: center;}
+
+    input[maxlength="50"]  {width: 98%;}
+    input[maxlength="75"]  {width: 98%;}
+    input[maxlength="100"] {width: 98%;}
+    input[maxlength="150"] {width: 98%;}
+    input[maxlength="200"] {width: 98%;}
+    select {max-width:88vw;}
+    select[name^=FILTRO]   {width:100%;}
+}
+
+.columna_detalles {width:100%;}
+.scrS:has(.columna_detalles),.scrM:has(.columna_detalles),.scrL:has(.columna_detalles) {padding:0px;}
+.columna_detalles tr th {background-color:gainsboro;}
+.columna_detalles tr th, .columna_detalles tr td {font-size:x-small; border-bottom: 1px solid silver; padding-left: 3px; padding-right: 3px;}
+
+#ui-datepicker-div {
+    background-color:HoneyDew;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+    .tooltip .tooltiptext {
+        font-size: x-small;
+        visibility: hidden;
+        width: 120px;
+        background-color: #555;
+        color: #fff !important;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+        position: absolute;
+        z-index: 1;
+        bottom: 125%;
+        left: 50%;
+        margin-left: -60px;
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+
+.tooltiptext a {
+    font-size: x-small;
+    color: white;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.firma_frame {
+  background-color: HoneyDew;
+  border: 2px dotted silver;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.firma_botones {
+  border:1px solid #4d4d4d; 
+  border-radius:3px; 
+  background-color:#f0f0f0; 
+  padding:2px 6px 2px 6px;
+  margin-top:6px;
+  margin-right:4px;
+}

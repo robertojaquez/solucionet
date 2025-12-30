@@ -1,0 +1,1336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>Z:\finanzas_des</_PublishTargetUrl>
+    <History>True|2024-04-15T12:13:35.5108839Z;False|2024-04-15T08:13:09.2960307-04:00;True|2024-03-25T13:58:22.5734763-04:00;True|2024-03-25T11:25:59.5834163-04:00;True|2024-03-20T14:16:50.5171733-04:00;False|2024-03-20T14:15:14.3753256-04:00;False|2024-03-20T14:12:56.4576730-04:00;False|2024-03-20T14:10:07.4534980-04:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>09/10/2013 16:29:20</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>09/10/2013 16:29:20</publishTime>
+    </File>
+    <File Include="bin/AspNet.ScriptManager.jQuery.dll">
+      <publishTime>05/16/2019 12:33:30</publishTime>
+    </File>
+    <File Include="bin/Mantenimientos.dll">
+      <publishTime>03/20/2024 14:15:46</publishTime>
+    </File>
+    <File Include="bin/Mantenimientos.pdb">
+      <publishTime>03/20/2024 14:15:46</publishTime>
+    </File>
+    <File Include="bin/Mantenimientos_SUIR.dll">
+      <publishTime>05/08/2024 08:05:29</publishTime>
+    </File>
+    <File Include="bin/Mantenimientos_SUIR.pdb">
+      <publishTime>05/08/2024 08:05:29</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.FriendlyUrls.dll">
+      <publishTime>07/30/2013 16:57:30</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Web.Optimization.WebForms.dll">
+      <publishTime>02/11/2014 15:26:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>09/05/2018 16:10:50</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ScriptManager.MSAjax.dll">
+      <publishTime>09/06/2013 11:20:12</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ScriptManager.WebForms.dll">
+      <publishTime>09/06/2013 11:20:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>05/27/2022 23:39:10</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>04/22/2019 01:06:16</publishTime>
+    </File>
+    <File Include="bin/Oracle.DataAccess.dll">
+      <publishTime>05/10/2019 03:24:30</publishTime>
+    </File>
+    <File Include="bin/Oracle.ManagedDataAccess.dll">
+      <publishTime>05/10/2019 03:30:58</publishTime>
+    </File>
+    <File Include="bin/Oracle.ManagedDataAccess.EntityFramework.dll">
+      <publishTime>05/10/2019 03:48:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>08/08/2018 12:18:12</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>08/08/2018 12:18:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>08/08/2018 12:09:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>12/05/2017 09:36:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>12/05/2017 09:36:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Win32.Primitives.dll">
+      <publishTime>11/05/2016 18:55:32</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>11/05/2016 18:55:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/16/2018 03:29:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>11/05/2016 18:55:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>11/05/2016 18:55:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>11/05/2016 18:55:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>11/05/2016 18:55:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Globalization.Calendars.dll">
+      <publishTime>11/05/2016 18:56:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.ZipFile.dll">
+      <publishTime>11/05/2016 18:56:04</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Http.dll">
+      <publishTime>11/05/2016 18:56:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Sockets.dll">
+      <publishTime>11/05/2016 18:56:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/16/2018 03:29:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Runtime.InteropServices.RuntimeInformation.dll">
+      <publishTime>11/05/2016 18:57:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>11/05/2016 18:57:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>11/05/2016 18:57:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>11/05/2016 18:57:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>11/05/2016 18:57:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>11/05/2016 18:57:20</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Threading.Tasks.Extensions.dll">
+      <publishTime>11/05/2016 18:57:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>11/05/2016 18:57:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>11/05/2016 18:57:36</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>11/05/2016 18:57:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>11/05/2016 18:57:40</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>11/05/2016 18:57:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>08/08/2018 12:18:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>08/08/2018 12:09:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>08/08/2018 12:18:16</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>02/11/2014 15:26:04</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>01/23/2014 13:57:34</publishTime>
+    </File>
+    <File Include="Errores.txt">
+      <publishTime>02/20/2024 15:26:47</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>03/22/2024 12:25:33</publishTime>
+    </File>
+    <File Include="Login_otp.aspx">
+      <publishTime>04/01/2024 08:58:50</publishTime>
+    </File>
+    <File Include="Site.Master">
+      <publishTime>03/25/2024 11:09:39</publishTime>
+    </File>
+    <File Include="Usuarios/Bienvenida.aspx">
+      <publishTime>03/21/2024 11:10:34</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>05/07/2024 08:29:55</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/all_tab_columns_suir.sql">
+      <publishTime>03/19/2024 13:07:39</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/ars_cartera_errores_pkg.sql">
+      <publishTime>03/19/2024 13:08:59</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/ars_cartera_errores_t.sql">
+      <publishTime>03/19/2024 13:07:40</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/ars_cartera_errores_v.sql">
+      <publishTime>03/19/2024 13:08:28</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/ars_cartera_senasa_con_error_t.sql">
+      <publishTime>03/19/2024 13:07:40</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/ars_cartera_t.sql">
+      <publishTime>03/19/2024 13:07:41</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/ars_catalogo_pkg.sql">
+      <publishTime>03/19/2024 13:08:59</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/ars_catalogo_t.sql">
+      <publishTime>03/19/2024 13:07:41</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/ars_catalogo_v.sql">
+      <publishTime>03/19/2024 13:08:28</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/ars_cat_inactiva_pkg.sql">
+      <publishTime>03/19/2024 13:08:59</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/ars_cat_inactiva_t.sql">
+      <publishTime>03/19/2024 13:07:42</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/ars_cat_inactiva_v.sql">
+      <publishTime>03/19/2024 13:08:29</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/ars_parentescos_pkg.sql">
+      <publishTime>03/19/2024 13:08:59</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/ars_parentescos_t.sql">
+      <publishTime>03/19/2024 13:07:42</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/ars_parentescos_v.sql">
+      <publishTime>03/19/2024 13:08:29</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/bc_archivos_tss_pkg.sql">
+      <publishTime>03/19/2024 13:08:59</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/bc_archivos_tss_t.sql">
+      <publishTime>03/19/2024 13:07:42</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/bc_archivos_tss_v.sql">
+      <publishTime>03/19/2024 13:08:29</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/bc_archivo_msg_pkg.sql">
+      <publishTime>03/19/2024 13:08:59</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/bc_archivo_msg_t.sql">
+      <publishTime>03/19/2024 13:07:43</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/bc_archivo_msg_v.sql">
+      <publishTime>03/19/2024 13:08:29</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/bc_catalogo_caracteres_t.sql">
+      <publishTime>03/19/2024 13:07:43</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/bc_catalogo_caracteres_v.sql">
+      <publishTime>03/19/2024 13:08:29</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/bc_cod_trn_pkg.sql">
+      <publishTime>03/19/2024 13:08:59</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/bc_cod_trn_t.sql">
+      <publishTime>03/19/2024 13:07:44</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/bc_cod_trn_v.sql">
+      <publishTime>03/19/2024 13:08:30</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/bit_motivos_pkg.sql">
+      <publishTime>03/19/2024 13:08:59</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/bit_motivos_t.sql">
+      <publishTime>03/19/2024 13:07:44</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/bit_motivos_v.sql">
+      <publishTime>03/19/2024 13:08:30</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/cer_catalogo_firmas_pkg.sql">
+      <publishTime>03/19/2024 13:08:59</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/cer_catalogo_firmas_t.sql">
+      <publishTime>03/19/2024 13:07:45</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/cer_catalogo_firmas_v.sql">
+      <publishTime>03/19/2024 13:08:30</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/cer_status_certificaciones_pkg.sql">
+      <publishTime>03/19/2024 13:08:59</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/cer_status_certificaciones_t.sql">
+      <publishTime>03/19/2024 13:07:45</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/cer_status_certificaciones_v.sql">
+      <publishTime>03/19/2024 13:08:30</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/cer_tipos_certificaciones_pkg.sql">
+      <publishTime>03/19/2024 13:08:59</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/cer_tipos_certificaciones_t.sql">
+      <publishTime>03/19/2024 13:07:46</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/cer_tipos_certificaciones_v.sql">
+      <publishTime>03/19/2024 13:08:31</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/crm_tipos_registro_pkg.sql">
+      <publishTime>03/19/2024 13:08:59</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/crm_tipos_registro_t.sql">
+      <publishTime>03/19/2024 13:07:46</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/crm_tipos_registro_v.sql">
+      <publishTime>03/19/2024 13:08:31</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/cs_c_rubros.sql">
+      <publishTime>03/19/2024 13:07:46</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/cs_c_rubros_pkg.sql">
+      <publishTime>03/19/2024 13:09:00</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/cs_c_rubros_v.sql">
+      <publishTime>03/19/2024 13:08:31</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/dis_acciones_estatus_pkg.sql">
+      <publishTime>03/19/2024 13:09:00</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/dis_acciones_estatus_t.sql">
+      <publishTime>03/19/2024 13:07:47</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/dis_acciones_estatus_v.sql">
+      <publishTime>03/19/2024 13:08:32</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/dis_accion_estatus_t_seq.sql">
+      <publishTime>03/19/2024 13:07:47</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/dis_docs_razon_t_seq.sql">
+      <publishTime>03/19/2024 13:07:48</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/dis_documentos_pkg.sql">
+      <publishTime>03/19/2024 13:09:00</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/dis_documentos_razon_pkg.sql">
+      <publishTime>03/19/2024 13:09:00</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/dis_documentos_razon_t.sql">
+      <publishTime>03/19/2024 13:07:48</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/dis_documentos_razon_v.sql">
+      <publishTime>03/19/2024 13:08:32</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/dis_documentos_t.sql">
+      <publishTime>03/19/2024 13:07:49</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/dis_documentos_t_seq.sql">
+      <publishTime>03/19/2024 13:07:49</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/dis_documentos_v.sql">
+      <publishTime>03/19/2024 13:08:32</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/dis_estatus_pkg.sql">
+      <publishTime>03/19/2024 13:09:00</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/dis_estatus_t.sql">
+      <publishTime>03/19/2024 13:07:50</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/dis_estatus_v.sql">
+      <publishTime>03/19/2024 13:08:32</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/dis_razones_pkg.sql">
+      <publishTime>03/19/2024 13:09:00</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/dis_razones_t.sql">
+      <publishTime>03/19/2024 13:07:50</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/dis_razones_t_seq.sql">
+      <publishTime>03/19/2024 13:07:50</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/dis_razones_v.sql">
+      <publishTime>03/19/2024 13:08:33</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/est_catalogo_ei_t.sql">
+      <publishTime>03/19/2024 13:07:51</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/est_catalogo_ei_v.sql">
+      <publishTime>03/19/2024 13:08:33</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/est_catalogo_errores_pkg.sql">
+      <publishTime>03/19/2024 13:09:00</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/est_catalogo_errores_t.sql">
+      <publishTime>03/19/2024 13:07:51</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/est_catalogo_errores_v.sql">
+      <publishTime>03/19/2024 13:08:33</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/html_mail.sql">
+      <publishTime>03/19/2024 13:09:06</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/html_mail_seq.sql">
+      <publishTime>03/19/2024 13:07:52</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/html_mail_t.sql">
+      <publishTime>03/19/2024 13:07:52</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/jce_tipo_causa_pkg.sql">
+      <publishTime>03/19/2024 13:09:00</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/jce_tipo_causa_t.sql">
+      <publishTime>03/19/2024 13:07:53</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/jce_tipo_causa_v.sql">
+      <publishTime>03/19/2024 13:08:33</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/lgl_status_acuerdos_pkg.sql">
+      <publishTime>03/19/2024 13:09:00</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/lgl_status_acuerdos_t.sql">
+      <publishTime>03/19/2024 13:07:53</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/lgl_status_acuerdos_v.sql">
+      <publishTime>03/19/2024 13:08:34</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/lgl_tipo_acuerdos_pkg.sql">
+      <publishTime>03/19/2024 13:09:00</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/lgl_tipo_acuerdos_t.sql">
+      <publishTime>03/19/2024 13:07:53</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/lgl_tipo_notif_pkg.sql">
+      <publishTime>03/19/2024 13:09:00</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/lgl_tipo_notif_t.sql">
+      <publishTime>03/19/2024 13:07:54</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/lgl_tipo_notif_v.sql">
+      <publishTime>03/19/2024 13:08:34</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_agregar_p.sql">
+      <publishTime>03/19/2024 13:09:06</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_ayuda_p.sql">
+      <publishTime>03/19/2024 13:09:06</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_boton_f.sql">
+      <publishTime>03/19/2024 13:09:06</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_consultar_p.sql">
+      <publishTime>03/19/2024 13:09:06</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_control_f.sql">
+      <publishTime>03/19/2024 13:09:06</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_det_acciones_paginas_pkg.sql">
+      <publishTime>03/19/2024 13:09:00</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_det_acciones_paginas_seguridad_pkg.sql">
+      <publishTime>03/19/2024 13:09:00</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_det_acciones_paginas_seguridad_t.sql">
+      <publishTime>03/19/2024 13:07:54</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_det_acciones_paginas_seguridad_v.sql">
+      <publishTime>03/19/2024 13:08:34</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_det_acciones_paginas_t.sql">
+      <publishTime>03/19/2024 13:07:34</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_det_acciones_paginas_v.sql">
+      <publishTime>03/19/2024 13:08:35</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_det_columnas_paginas_pkg.sql">
+      <publishTime>03/19/2024 13:09:01</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_det_columnas_paginas_seguridad_pkg.sql">
+      <publishTime>03/19/2024 13:09:01</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_det_columnas_paginas_seguridad_t.sql">
+      <publishTime>03/19/2024 13:07:55</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_det_columnas_paginas_seguridad_v.sql">
+      <publishTime>03/19/2024 13:08:35</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_det_columnas_paginas_t.sql">
+      <publishTime>03/19/2024 13:07:35</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_det_columnas_paginas_v.sql">
+      <publishTime>03/19/2024 13:08:36</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_det_filtros_paginas_pkg.sql">
+      <publishTime>03/19/2024 13:09:01</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_det_filtros_paginas_seguridad_pkg.sql">
+      <publishTime>03/19/2024 13:09:01</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_det_filtros_paginas_seguridad_t.sql">
+      <publishTime>03/19/2024 13:07:55</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_det_filtros_paginas_seguridad_v.sql">
+      <publishTime>03/19/2024 13:08:36</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_det_filtros_paginas_t.sql">
+      <publishTime>03/19/2024 13:07:35</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_det_filtros_paginas_v.sql">
+      <publishTime>03/19/2024 13:08:37</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_det_mensajes_paginas_seguridad_v.sql">
+      <publishTime>03/19/2024 13:08:37</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_det_mensajes_paginas_v.sql">
+      <publishTime>03/19/2024 13:08:37</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_det_tabs_paginas_t.sql">
+      <publishTime>03/19/2024 13:07:56</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_det_tabs_paginas_v.sql">
+      <publishTime>03/19/2024 13:08:38</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_det_trazabilidad_local_t.sql">
+      <publishTime>03/19/2024 13:07:36</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_det_trazabilidad_t.sql">
+      <publishTime>03/19/2024 13:07:56</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_excepciones_seguridad_t.sql">
+      <publishTime>03/19/2024 13:07:57</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_excepciones_seguridad_v.sql">
+      <publishTime>03/19/2024 13:08:38</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_excepciones_t.sql">
+      <publishTime>03/19/2024 13:07:36</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_excepciones_v.sql">
+      <publishTime>03/19/2024 13:08:38</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_exportar_p.sql">
+      <publishTime>03/19/2024 13:09:06</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_formatear_pkg.sql">
+      <publishTime>03/19/2024 13:08:35</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_graficar_p.sql">
+      <publishTime>03/19/2024 13:09:06</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_imprimir_p.sql">
+      <publishTime>03/19/2024 13:09:06</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_lista_de_valores_f.sql">
+      <publishTime>03/19/2024 13:09:06</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_mantenimientos_pkg.sql">
+      <publishTime>03/19/2024 13:09:01</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_mensajes_pkg.sql">
+      <publishTime>03/19/2024 13:09:01</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_mensajes_seguridad_pkg.sql">
+      <publishTime>03/19/2024 13:09:01</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_mensajes_seguridad_t.sql">
+      <publishTime>03/19/2024 13:07:57</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_mensajes_seguridad_v.sql">
+      <publishTime>03/19/2024 13:07:58</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_mensajes_t.sql">
+      <publishTime>03/19/2024 13:07:37</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_mensajes_v.sql">
+      <publishTime>03/19/2024 13:08:39</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_modificar_p.sql">
+      <publishTime>03/19/2024 13:09:06</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_paginas_pkg.sql">
+      <publishTime>03/19/2024 13:09:01</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_paginas_seguridad_pkg.sql">
+      <publishTime>03/19/2024 13:09:01</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_paginas_seguridad_t.sql">
+      <publishTime>03/19/2024 13:07:58</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_paginas_seguridad_v.sql">
+      <publishTime>03/19/2024 13:08:39</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_paginas_t.sql">
+      <publishTime>03/19/2024 13:07:34</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_paginas_v.sql">
+      <publishTime>03/19/2024 13:08:40</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_preparar_p.sql">
+      <publishTime>03/19/2024 13:09:06</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_registro_f.sql">
+      <publishTime>03/19/2024 13:09:06</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_sesiones_t.sql">
+      <publishTime>03/19/2024 13:07:37</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_sistemas_t.sql">
+      <publishTime>03/19/2024 13:07:58</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_tabs_f.sql">
+      <publishTime>03/19/2024 13:09:06</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_tipos_de_datos_t.sql">
+      <publishTime>03/19/2024 13:07:59</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_trazabilidad_columnas_t.sql">
+      <publishTime>03/19/2024 13:07:59</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_trazabilidad_local_t.sql">
+      <publishTime>03/19/2024 13:07:36</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_trazabilidad_p.sql">
+      <publishTime>03/19/2024 13:09:06</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_trazabilidad_t.sql">
+      <publishTime>03/19/2024 13:08:00</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_trazabilidad_v.sql">
+      <publishTime>03/19/2024 13:08:40</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/man_ver_p.sql">
+      <publishTime>03/19/2024 13:09:06</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/nss_accion_evaluacion_visual_pkg.sql">
+      <publishTime>03/19/2024 13:09:01</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/nss_accion_evaluacion_visual_t.sql">
+      <publishTime>03/19/2024 13:08:00</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/nss_accion_evaluacion_visual_v.sql">
+      <publishTime>03/19/2024 13:08:40</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/nss_entidades_pkg.sql">
+      <publishTime>03/19/2024 13:09:01</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/nss_entidades_t.sql">
+      <publishTime>03/19/2024 13:08:01</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/nss_entidades_v.sql">
+      <publishTime>03/19/2024 13:08:40</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/nss_estatus_pkg.sql">
+      <publishTime>03/19/2024 13:09:01</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/nss_estatus_t.sql">
+      <publishTime>03/19/2024 13:08:01</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/nss_estatus_v.sql">
+      <publishTime>03/19/2024 13:08:40</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/nss_tipo_solicitudes_pkg.sql">
+      <publishTime>03/19/2024 13:09:02</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/nss_tipo_solicitudes_t.sql">
+      <publishTime>03/19/2024 13:08:01</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/nss_tipo_solicitudes_v.sql">
+      <publishTime>03/19/2024 13:08:41</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/ofc_acciones_pkg.sql">
+      <publishTime>03/19/2024 13:09:02</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/ofc_acciones_t.sql">
+      <publishTime>03/19/2024 13:08:02</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/ofc_acciones_v.sql">
+      <publishTime>03/19/2024 13:08:41</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/ofc_motivos_pkg.sql">
+      <publishTime>03/19/2024 13:09:02</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/ofc_motivos_t.sql">
+      <publishTime>03/19/2024 13:08:02</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/ofc_motivos_v.sql">
+      <publishTime>03/19/2024 13:08:41</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/ofv_entidades_autorizadas_pkg.sql">
+      <publishTime>03/19/2024 13:09:02</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/ofv_entidades_autorizadas_t.sql">
+      <publishTime>03/19/2024 13:08:03</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/ofv_entidades_autorizadas_v.sql">
+      <publishTime>03/19/2024 13:08:42</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/pgb_catalogo_respuestas_pkg.sql">
+      <publishTime>03/19/2024 13:09:02</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/pgb_catalogo_respuestas_t.sql">
+      <publishTime>03/19/2024 13:08:03</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/pgb_catalogo_respuestas_v.sql">
+      <publishTime>03/19/2024 13:08:42</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/rpn_entidades_pkg.sql">
+      <publishTime>03/19/2024 13:09:02</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/rpn_entidades_t.sql">
+      <publishTime>03/19/2024 13:08:04</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/rpn_entidades_v.sql">
+      <publishTime>03/19/2024 13:08:42</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/rpn_entidad_regimen_t.sql">
+      <publishTime>03/19/2024 13:08:04</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/rpn_entidad_regimen_v.sql">
+      <publishTime>03/19/2024 13:08:42</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/rpn_regimen_pkg.sql">
+      <publishTime>03/19/2024 13:09:02</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/rpn_regimen_t.sql">
+      <publishTime>03/19/2024 13:08:04</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/rpn_regimen_v.sql">
+      <publishTime>03/19/2024 13:08:43</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sco_dias_feriados_pkg.sql">
+      <publishTime>03/19/2024 13:09:02</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sco_dias_feriados_t.sql">
+      <publishTime>03/19/2024 13:08:05</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sco_dias_feriados_v.sql">
+      <publishTime>03/19/2024 13:08:43</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/seg_autenticacion_pkg.sql">
+      <publishTime>03/19/2024 13:09:02</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/seg_buzon_mensajes_pkg.sql">
+      <publishTime>03/19/2024 13:09:02</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/seg_buzon_mensajes_t.sql">
+      <publishTime>03/19/2024 13:07:37</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/seg_buzon_mensajes_v.sql">
+      <publishTime>03/19/2024 13:08:43</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/seg_det_permisos_roles_pkg.sql">
+      <publishTime>03/19/2024 13:09:02</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/seg_det_permisos_roles_t.sql">
+      <publishTime>03/19/2024 13:07:37</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/seg_det_permisos_roles_v.sql">
+      <publishTime>03/19/2024 13:08:44</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/seg_det_permisos_t.sql">
+      <publishTime>03/19/2024 13:08:05</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/seg_det_permisos_v.sql">
+      <publishTime>03/19/2024 13:08:44</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/seg_det_roles_usuarios_mchk_v.sql">
+      <publishTime>03/19/2024 13:08:45</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/seg_det_roles_usuarios_pkg.sql">
+      <publishTime>03/19/2024 13:09:02</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/seg_det_roles_usuarios_t.sql">
+      <publishTime>03/19/2024 13:07:38</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/seg_det_roles_usuarios_v.sql">
+      <publishTime>03/19/2024 13:08:46</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/seg_error_pkg.sql">
+      <publishTime>03/19/2024 13:09:03</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/seg_error_t.sql">
+      <publishTime>03/19/2024 13:08:06</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/seg_error_v.sql">
+      <publishTime>03/19/2024 13:08:46</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/seg_log_eventos_t.sql">
+      <publishTime>03/19/2024 13:08:06</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/seg_perfil_pkg.sql">
+      <publishTime>03/19/2024 13:09:03</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/seg_perfil_t.sql">
+      <publishTime>03/19/2024 13:08:07</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/seg_perfil_v.sql">
+      <publishTime>03/19/2024 13:08:46</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/seg_permisos_pkg.sql">
+      <publishTime>03/19/2024 13:09:03</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/seg_permisos_seguridad_t.sql">
+      <publishTime>03/19/2024 13:08:07</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/seg_permisos_t.sql">
+      <publishTime>03/19/2024 13:07:33</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/seg_permisos_v.sql">
+      <publishTime>03/19/2024 13:08:46</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/seg_reglas_password_t.sql">
+      <publishTime>03/19/2024 13:08:08</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/seg_roles_pkg.sql">
+      <publishTime>03/19/2024 13:09:03</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/seg_roles_t.sql">
+      <publishTime>03/19/2024 13:07:37</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/seg_roles_v.sql">
+      <publishTime>03/19/2024 13:08:47</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/seg_secciones_t.sql">
+      <publishTime>03/19/2024 13:07:33</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/seg_usuarios_menues_t.sql">
+      <publishTime>03/19/2024 13:08:08</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/seg_usuarios_menues_v.sql">
+      <publishTime>03/19/2024 13:08:47</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/seg_usuarios_pendientes_v.sql">
+      <publishTime>03/19/2024 13:08:48</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/seg_usuarios_permisos_t.sql">
+      <publishTime>03/19/2024 13:08:08</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/seg_usuarios_permisos_v.sql">
+      <publishTime>03/19/2024 13:08:38</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/seg_usuarios_pkg.sql">
+      <publishTime>03/19/2024 13:09:03</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/seg_usuarios_suir_t.sql">
+      <publishTime>03/19/2024 13:08:09</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/seg_usuarios_suir_v.sql">
+      <publishTime>03/19/2024 13:08:45</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/seg_usuarios_t.sql">
+      <publishTime>03/19/2024 13:07:38</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/seg_usuarios_v.sql">
+      <publishTime>03/19/2024 13:08:48</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/seh_motivo_baja_pkg.sql">
+      <publishTime>03/19/2024 13:09:03</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/seh_motivo_baja_t.sql">
+      <publishTime>03/19/2024 13:08:09</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/seh_motivo_baja_v.sql">
+      <publishTime>03/19/2024 13:08:48</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sfc_aplicaciones_pkg.sql">
+      <publishTime>03/19/2024 13:09:03</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sfc_aplicaciones_t.sql">
+      <publishTime>03/19/2024 13:08:10</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sfc_aplicaciones_v.sql">
+      <publishTime>03/19/2024 13:08:48</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sfc_det_parametros_grafica_t.sql">
+      <publishTime>03/19/2024 13:08:10</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sfc_det_parametros_grafica_v.sql">
+      <publishTime>03/19/2024 13:08:49</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sfc_det_parametros_pkg.sql">
+      <publishTime>03/19/2024 13:09:03</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sfc_det_parametros_t.sql">
+      <publishTime>03/19/2024 13:08:11</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sfc_det_parametros_v.sql">
+      <publishTime>03/19/2024 13:08:49</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sfc_entidad_recaudadora_pkg.sql">
+      <publishTime>03/19/2024 13:09:03</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sfc_entidad_recaudadora_t.sql">
+      <publishTime>03/19/2024 13:08:11</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sfc_entidad_recaudadora_v.sql">
+      <publishTime>03/19/2024 13:08:50</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sfc_parametros_pkg.sql">
+      <publishTime>03/19/2024 13:09:03</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sfc_parametros_t.sql">
+      <publishTime>03/19/2024 13:08:11</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sfc_parametros_v.sql">
+      <publishTime>03/19/2024 13:08:50</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sfc_procesos_pkg.sql">
+      <publishTime>03/19/2024 13:09:03</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sfc_procesos_t.sql">
+      <publishTime>03/19/2024 13:08:12</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sfc_procesos_v.sql">
+      <publishTime>03/19/2024 13:08:50</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sfc_rangos_anuales_isr_new_pkg.sql">
+      <publishTime>03/19/2024 13:09:03</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sfc_rangos_anuales_isr_new_t.sql">
+      <publishTime>03/19/2024 13:08:12</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sfc_rangos_anuales_isr_new_v.sql">
+      <publishTime>03/19/2024 13:08:50</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sfc_rangos_anuales_isr_pen_pkg.sql">
+      <publishTime>03/19/2024 13:09:03</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sfc_rangos_anuales_isr_pen_t.sql">
+      <publishTime>03/19/2024 13:08:13</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sfc_rangos_anuales_isr_pen_v.sql">
+      <publishTime>03/19/2024 13:08:51</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sfc_renglones_pkg.sql">
+      <publishTime>03/19/2024 13:09:04</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sfc_renglones_t.sql">
+      <publishTime>03/19/2024 13:08:13</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sfc_renglones_v.sql">
+      <publishTime>03/19/2024 13:08:51</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sfc_renglon_nomina_t.sql">
+      <publishTime>03/19/2024 13:08:14</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sfc_renglon_nomina_v.sql">
+      <publishTime>03/19/2024 13:08:51</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sfc_tipo_ajustes_pkg.sql">
+      <publishTime>03/19/2024 13:09:04</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sfc_tipo_ajustes_t.sql">
+      <publishTime>03/19/2024 13:08:14</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sfc_tipo_ajustes_v.sql">
+      <publishTime>03/19/2024 13:08:51</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sfc_tipo_facturas_pkg.sql">
+      <publishTime>03/19/2024 13:09:04</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sfc_tipo_facturas_t.sql">
+      <publishTime>03/19/2024 13:08:14</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sfc_tipo_facturas_v.sql">
+      <publishTime>03/19/2024 13:08:52</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sfc_tipo_grupo_ajustes_pkg.sql">
+      <publishTime>03/19/2024 13:09:04</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sfc_tipo_grupo_ajustes_t.sql">
+      <publishTime>03/19/2024 13:08:15</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sfc_tipo_grupo_ajustes_v.sql">
+      <publishTime>03/19/2024 13:08:52</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sfc_tipo_impuesto_pkg.sql">
+      <publishTime>03/19/2024 13:09:04</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sfc_tipo_impuesto_t.sql">
+      <publishTime>03/19/2024 13:08:15</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sfc_tipo_impuesto_v.sql">
+      <publishTime>03/19/2024 13:08:52</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sfc_tipo_nominas_pkg.sql">
+      <publishTime>03/19/2024 13:09:04</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sfc_tipo_nominas_t.sql">
+      <publishTime>03/19/2024 13:08:16</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sfc_tipo_nominas_v.sql">
+      <publishTime>03/19/2024 13:08:52</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sms_mensajes_t.sql">
+      <publishTime>03/19/2024 13:08:16</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_actividad_economica_pkg.sql">
+      <publishTime>03/19/2024 13:09:04</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_actividad_economica_t.sql">
+      <publishTime>03/19/2024 13:08:17</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_actividad_economica_v.sql">
+      <publishTime>03/19/2024 13:08:53</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_categoria_riesgo_pkg.sql">
+      <publishTime>03/19/2024 13:09:04</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_categoria_riesgo_t.sql">
+      <publishTime>03/19/2024 13:08:17</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_categoria_riesgo_v.sql">
+      <publishTime>03/19/2024 13:08:53</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_ciudadanos_t.sql">
+      <publishTime>03/19/2024 13:08:18</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_empleadores_t.sql">
+      <publishTime>03/19/2024 13:08:18</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_escala_salarial_pkg.sql">
+      <publishTime>03/19/2024 13:09:04</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_escala_salarial_t.sql">
+      <publishTime>03/19/2024 13:08:18</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_escala_salarial_v.sql">
+      <publishTime>03/19/2024 13:08:53</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_estadisticas_diarias_t.sql">
+      <publishTime>03/19/2024 13:08:19</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_estadisticas_diarias_v.sql">
+      <publishTime>03/19/2024 13:08:53</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_estadisticas_mensuales_t.sql">
+      <publishTime>03/19/2024 13:08:19</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_estadisticas_mensuales_v.sql">
+      <publishTime>03/19/2024 13:08:54</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_estadisticas_pkg.sql">
+      <publishTime>03/19/2024 13:09:04</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_estadisticas_t.sql">
+      <publishTime>03/19/2024 13:08:20</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_estadisticas_v.sql">
+      <publishTime>03/19/2024 13:08:54</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_ingresos_exentos_pkg.sql">
+      <publishTime>03/19/2024 13:09:04</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_ingresos_exentos_t.sql">
+      <publishTime>03/19/2024 13:08:20</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_ingresos_exentos_v.sql">
+      <publishTime>03/19/2024 13:08:54</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_inhabilidad_empleadores_pkg.sql">
+      <publishTime>03/19/2024 13:09:04</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_inhabilidad_empleadores_t.sql">
+      <publishTime>03/19/2024 13:08:21</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_inhabilidad_empleadores_v.sql">
+      <publishTime>03/19/2024 13:08:54</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_inhabilidad_jce_pkg.sql">
+      <publishTime>03/19/2024 13:09:04</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_inhabilidad_jce_t.sql">
+      <publishTime>03/19/2024 13:08:21</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_inhabilidad_jce_v.sql">
+      <publishTime>03/19/2024 13:08:55</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_motivos_fallecidos_pkg.sql">
+      <publishTime>03/19/2024 13:09:05</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_motivos_fallecidos_t.sql">
+      <publishTime>03/19/2024 13:08:22</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_motivos_fallecidos_v.sql">
+      <publishTime>03/19/2024 13:08:55</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_motivos_pasaportes_pkg.sql">
+      <publishTime>03/19/2024 13:09:05</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_motivos_pasaportes_t.sql">
+      <publishTime>03/19/2024 13:08:22</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_motivos_pasaportes_v.sql">
+      <publishTime>03/19/2024 13:08:55</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_municipio_pkg.sql">
+      <publishTime>03/19/2024 13:09:05</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_municipio_t.sql">
+      <publishTime>03/19/2024 13:08:23</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_municipio_v.sql">
+      <publishTime>03/19/2024 13:08:55</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_nacionalidad_pkg.sql">
+      <publishTime>03/19/2024 13:09:05</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_nacionalidad_t.sql">
+      <publishTime>03/19/2024 13:08:23</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_nacionalidad_v.sql">
+      <publishTime>03/19/2024 13:08:56</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_oficialias_pkg.sql">
+      <publishTime>03/19/2024 13:09:05</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_oficialias_t.sql">
+      <publishTime>03/19/2024 13:08:23</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_oficialias_v.sql">
+      <publishTime>03/19/2024 13:08:56</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_provincias_pkg.sql">
+      <publishTime>03/19/2024 13:09:05</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_provincias_t.sql">
+      <publishTime>03/19/2024 13:08:24</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_provincias_v.sql">
+      <publishTime>03/19/2024 13:08:56</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_sectores_salariales_pkg.sql">
+      <publishTime>03/19/2024 13:09:05</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_sectores_salariales_t.sql">
+      <publishTime>03/19/2024 13:08:24</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_sectores_salariales_v.sql">
+      <publishTime>03/19/2024 13:08:56</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_tipos_de_sangre_pkg.sql">
+      <publishTime>03/19/2024 13:09:05</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_tipos_de_sangre_t.sql">
+      <publishTime>03/19/2024 13:08:25</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_tipos_de_sangre_v.sql">
+      <publishTime>03/19/2024 13:08:57</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_tipo_archivos_pkg.sql">
+      <publishTime>03/19/2024 13:09:05</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_tipo_archivos_t.sql">
+      <publishTime>03/19/2024 13:08:25</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_tipo_archivos_v.sql">
+      <publishTime>03/19/2024 13:08:57</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_tipo_documentos_pkg.sql">
+      <publishTime>03/19/2024 13:09:05</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_tipo_documentos_t.sql">
+      <publishTime>03/19/2024 13:08:26</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_tipo_documentos_v.sql">
+      <publishTime>03/19/2024 13:08:57</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_tipo_ingreso_pkg.sql">
+      <publishTime>03/19/2024 13:09:05</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_tipo_ingreso_t.sql">
+      <publishTime>03/19/2024 13:08:26</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_tipo_ingreso_v.sql">
+      <publishTime>03/19/2024 13:08:57</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_tipo_novedad_pkg.sql">
+      <publishTime>03/19/2024 13:09:05</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_tipo_novedad_t.sql">
+      <publishTime>03/19/2024 13:08:27</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/sre_tipo_novedad_v.sql">
+      <publishTime>03/19/2024 13:08:58</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/srp_config_pkg.sql">
+      <publishTime>03/19/2024 13:09:05</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/srp_config_t.sql">
+      <publishTime>03/19/2024 13:08:27</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/srp_config_v.sql">
+      <publishTime>03/19/2024 13:08:58</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/suir_c_entidad.sql">
+      <publishTime>03/19/2024 13:08:27</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/suir_c_entidad_pkg.sql">
+      <publishTime>03/19/2024 13:09:06</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/suir_c_entidad_v.sql">
+      <publishTime>03/19/2024 13:08:58</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/suir_c_tipo_entidad.sql">
+      <publishTime>03/19/2024 13:08:28</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/suir_c_tipo_entidad_pkg.sql">
+      <publishTime>03/19/2024 13:09:06</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/suir_c_tipo_entidad_v.sql">
+      <publishTime>03/19/2024 13:08:59</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/_data_1_secciones.sql">
+      <publishTime>03/19/2024 13:23:08</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/_data_2_permisos.sql">
+      <publishTime>03/20/2024 14:05:43</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/_data_3_mensajes.sql">
+      <publishTime>03/19/2024 13:39:54</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/_data_4_paginas.sql">
+      <publishTime>03/20/2024 10:34:46</publishTime>
+    </File>
+    <File Include="_database_migrations/_objects/_data_5_usuarios.sql">
+      <publishTime>03/20/2024 13:56:46</publishTime>
+    </File>
+    <File Include="_database_migrations/_scripts/dba_1_grants_mantenimientos_suir.sql">
+      <publishTime>03/20/2024 11:53:34</publishTime>
+    </File>
+    <File Include="_database_migrations/_scripts/dba_2_grants_seguridad_suir.sql">
+      <publishTime>03/20/2024 11:53:44</publishTime>
+    </File>
+    <File Include="_database_migrations/_scripts/dba_3_dblinks_mantenimientos_suir.sql">
+      <publishTime>03/20/2024 11:57:35</publishTime>
+    </File>
+    <File Include="_database_migrations/_scripts/dba_4_dblinks_seguridad_suir.sql">
+      <publishTime>03/20/2024 11:59:18</publishTime>
+    </File>
+    <File Include="_database_migrations/_scripts/dba_5_versioninfo_mantenimientos_suir.sql">
+      <publishTime>03/20/2024 11:56:41</publishTime>
+    </File>
+    <File Include="_database_migrations/_scripts/dba_6_versioninfo_seguridad_suir.sql">
+      <publishTime>03/20/2024 11:59:56</publishTime>
+    </File>
+    <File Include="_database_migrations/_scripts/seg_1_crear_usuarios_produccion.sql">
+      <publishTime>03/20/2024 12:02:25</publishTime>
+    </File>
+    <File Include="_database_migrations/_scripts/seg_2_crear_usuarios_mantenimientos_suir.sql">
+      <publishTime>03/20/2024 13:15:31</publishTime>
+    </File>
+    <File Include="_database_migrations/_scripts/seg_2_crear_usuarios_seguridad_suir.sql">
+      <publishTime>03/20/2024 13:16:06</publishTime>
+    </File>
+    <File Include="_images/logo.png">
+      <publishTime>02/22/2024 14:07:03</publishTime>
+    </File>
+    <File Include="_images/sort.png">
+      <publishTime>11/13/2023 16:35:19</publishTime>
+    </File>
+    <File Include="_images/Thumbs.db">
+      <publishTime>11/13/2023 16:35:19</publishTime>
+    </File>
+    <File Include="_js/decimals/Decimals.js">
+      <publishTime>11/13/2023 16:35:19</publishTime>
+    </File>
+    <File Include="_js/jquery/jquery-3.2.1.min.js">
+      <publishTime>11/13/2023 16:35:19</publishTime>
+    </File>
+    <File Include="_js/select2/select2.css">
+      <publishTime>03/20/2024 13:39:20</publishTime>
+    </File>
+    <File Include="_js/select2/select2.full.js">
+      <publishTime>11/13/2023 16:35:19</publishTime>
+    </File>
+    <File Include="_js/select2/select2.js">
+      <publishTime>11/13/2023 16:35:19</publishTime>
+    </File>
+    <File Include="_js/sweetalert/sweetalert.min.js">
+      <publishTime>04/11/2024 12:37:21</publishTime>
+    </File>
+    <File Include="_styles/controles.css">
+      <publishTime>05/07/2024 16:05:05</publishTime>
+    </File>
+    <File Include="_styles/favicon.ico">
+      <publishTime>11/13/2023 16:35:19</publishTime>
+    </File>
+    <File Include="_styles/paginas.css">
+      <publishTime>03/25/2024 11:09:16</publishTime>
+    </File>
+    <File Include="_styles/reportes.css">
+      <publishTime>11/13/2023 16:35:19</publishTime>
+    </File>
+    <File Include="_sys/Paginas.aspx">
+      <publishTime>03/21/2024 11:10:34</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

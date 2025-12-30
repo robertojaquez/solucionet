@@ -1,0 +1,12 @@
+C:\proyectos\Inventario\DatabaseMigrations\bin\Debug\net7.0\DatabaseMigrations.deps.json
+C:\proyectos\Inventario\DatabaseMigrations\bin\Debug\net7.0\DatabaseMigrations.dll
+C:\proyectos\Inventario\DatabaseMigrations\bin\Debug\net7.0\DatabaseMigrations.pdb
+C:\proyectos\Inventario\DatabaseMigrations\obj\Debug\net7.0\DatabaseMigrations.csproj.AssemblyReference.cache
+C:\proyectos\Inventario\DatabaseMigrations\obj\Debug\net7.0\DatabaseMigrations.GeneratedMSBuildEditorConfig.editorconfig
+C:\proyectos\Inventario\DatabaseMigrations\obj\Debug\net7.0\DatabaseMigrations.AssemblyInfoInputs.cache
+C:\proyectos\Inventario\DatabaseMigrations\obj\Debug\net7.0\DatabaseMigrations.AssemblyInfo.cs
+C:\proyectos\Inventario\DatabaseMigrations\obj\Debug\net7.0\DatabaseMigrations.csproj.CoreCompileInputs.cache
+C:\proyectos\Inventario\DatabaseMigrations\obj\Debug\net7.0\DatabaseMigrations.dll
+C:\proyectos\Inventario\DatabaseMigrations\obj\Debug\net7.0\refint\DatabaseMigrations.dll
+C:\proyectos\Inventario\DatabaseMigrations\obj\Debug\net7.0\DatabaseMigrations.pdb
+C:\proyectos\Inventario\DatabaseMigrations\obj\Debug\net7.0\ref\DatabaseMigrations.dll

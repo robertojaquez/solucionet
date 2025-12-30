@@ -1,0 +1,370 @@
+﻿Error Id:256649039
+User:ROBERTO_JAQUEZ
+Date:11/17/2025 3:27:23 PM
+Page:/
+Message :ORA-04068: existing state of packages has been discarded
+ORA-04061: existing state of package body "INV_DB.MAN_MANTENIMIENTOS_PKG" has been invalidated
+ORA-04065: not executed, altered or dropped package body "INV_DB.MAN_MANTENIMIENTOS_PKG"
+ORA-06508: PL/SQL: could not find program unit being called: "INV_DB.MAN_MANTENIMIENTOS_PKG"
+ORA-06512: at line 1
+StackTrace :   at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at Website.DB.EjecutarProcedimiento(String procedimiento, Object[][] parametros) in C:\proyectos\Inventario\Website\_classes\DB.cs:line 107
+   at Website.Paginas.Page_Load(Object sender, EventArgs e) in C:\proyectos\Inventario\Website\Paginas.aspx.cs:line 62
+
+Error Id:1040061294
+User:ROBERTO_JAQUEZ
+Date:11/17/2025 3:30:38 PM
+Page:/
+Message :ORA-04068: existing state of packages has been discarded
+ORA-04061: existing state of package body "INV_DB.MAN_MANTENIMIENTOS_PKG" has been invalidated
+ORA-04065: not executed, altered or dropped package body "INV_DB.MAN_MANTENIMIENTOS_PKG"
+ORA-06508: PL/SQL: could not find program unit being called: "INV_DB.MAN_MANTENIMIENTOS_PKG"
+ORA-06512: at line 1
+StackTrace :   at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at Website.DB.EjecutarProcedimiento(String procedimiento, Object[][] parametros) in C:\proyectos\Inventario\Website\_classes\DB.cs:line 107
+   at Website.Paginas.Page_Load(Object sender, EventArgs e) in C:\proyectos\Inventario\Website\Paginas.aspx.cs:line 62
+
+Error Id:1354014908
+User:ROBERTO_JAQUEZ
+Date:11/17/2025 3:39:35 PM
+Page:/
+Message :ORA-04068: existing state of packages has been discarded
+ORA-04061: existing state of package body "INV_DB.MAN_MANTENIMIENTOS_PKG" has been invalidated
+ORA-04065: not executed, altered or dropped package body "INV_DB.MAN_MANTENIMIENTOS_PKG"
+ORA-06508: PL/SQL: could not find program unit being called: "INV_DB.MAN_MANTENIMIENTOS_PKG"
+ORA-06512: at line 1
+StackTrace :   at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at Website.DB.EjecutarProcedimiento(String procedimiento, Object[][] parametros) in C:\proyectos\Inventario\Website\_classes\DB.cs:line 107
+   at Website.Paginas.Page_Load(Object sender, EventArgs e) in C:\proyectos\Inventario\Website\Paginas.aspx.cs:line 62
+
+Error Id:654491040
+User:ROBERTO_JAQUEZ
+Date:11/17/2025 3:46:21 PM
+Page:/
+Message :ORA-04068: existing state of packages has been discarded
+ORA-04061: existing state of package body "INV_DB.MAN_MANTENIMIENTOS_PKG" has been invalidated
+ORA-04065: not executed, altered or dropped package body "INV_DB.MAN_MANTENIMIENTOS_PKG"
+ORA-06508: PL/SQL: could not find program unit being called: "INV_DB.MAN_MANTENIMIENTOS_PKG"
+ORA-06512: at line 1
+StackTrace :   at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at Website.DB.EjecutarProcedimiento(String procedimiento, Object[][] parametros) in C:\proyectos\Inventario\Website\_classes\DB.cs:line 107
+   at Website.Paginas.Page_Load(Object sender, EventArgs e) in C:\proyectos\Inventario\Website\Paginas.aspx.cs:line 62
+
+Error Id:389682376
+User:ROBERTO_JAQUEZ
+Date:11/17/2025 3:48:48 PM
+Page:/
+Message :ORA-04068: existing state of packages has been discarded
+ORA-04061: existing state of package body "INV_DB.MAN_MANTENIMIENTOS_PKG" has been invalidated
+ORA-04065: not executed, altered or dropped package body "INV_DB.MAN_MANTENIMIENTOS_PKG"
+ORA-06508: PL/SQL: could not find program unit being called: "INV_DB.MAN_MANTENIMIENTOS_PKG"
+ORA-06512: at line 1
+StackTrace :   at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at Website.DB.EjecutarProcedimiento(String procedimiento, Object[][] parametros) in C:\proyectos\Inventario\Website\_classes\DB.cs:line 107
+   at Website.Paginas.Page_Load(Object sender, EventArgs e) in C:\proyectos\Inventario\Website\Paginas.aspx.cs:line 62
+
+Error Id:773717672
+User:ROBERTO_JAQUEZ
+Date:11/18/2025 8:36:45 AM
+Page:/
+Message :ORA-04068: existing state of packages has been discarded
+ORA-04061: existing state of package body "INV_DB.MAN_MANTENIMIENTOS_PKG" has been invalidated
+ORA-04065: not executed, altered or dropped package body "INV_DB.MAN_MANTENIMIENTOS_PKG"
+ORA-06508: PL/SQL: could not find program unit being called: "INV_DB.MAN_MANTENIMIENTOS_PKG"
+ORA-06512: at line 1
+StackTrace :   at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at Website.DB.EjecutarProcedimiento(String procedimiento, Object[][] parametros) in C:\proyectos\Inventario\Website\_classes\DB.cs:line 107
+   at Website.Paginas.Page_Load(Object sender, EventArgs e) in C:\proyectos\Inventario\Website\Paginas.aspx.cs:line 62
+
+Error Id:454868842
+User:ROBERTO_JAQUEZ
+Date:11/18/2025 11:25:38 AM
+Page:/
+Message :ORA-04068: existing state of packages has been discarded
+ORA-04061: existing state of package body "INV_DB.MAN_MANTENIMIENTOS_PKG" has been invalidated
+ORA-04065: not executed, altered or dropped package body "INV_DB.MAN_MANTENIMIENTOS_PKG"
+ORA-06508: PL/SQL: could not find program unit being called: "INV_DB.MAN_MANTENIMIENTOS_PKG"
+ORA-06512: at line 1
+StackTrace :   at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at Website.DB.EjecutarProcedimiento(String procedimiento, Object[][] parametros) in C:\proyectos\Inventario\Website\_classes\DB.cs:line 107
+   at Website.Paginas.Page_Load(Object sender, EventArgs e) in C:\proyectos\Inventario\Website\Paginas.aspx.cs:line 62
+
+Error Id:1855467679
+User:ROBERTO_JAQUEZ
+Date:11/19/2025 9:22:42 AM
+Page:/
+Message :ORA-04068: existing state of packages has been discarded
+ORA-04061: existing state of package body "INV_DB.MAN_MANTENIMIENTOS_PKG" has been invalidated
+ORA-04065: not executed, altered or dropped package body "INV_DB.MAN_MANTENIMIENTOS_PKG"
+ORA-06508: PL/SQL: could not find program unit being called: "INV_DB.MAN_MANTENIMIENTOS_PKG"
+ORA-06512: at line 1
+StackTrace :   at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at Website.DB.EjecutarProcedimientoDevuelveParametros(String procedimiento, Object[][] parametros) in C:\proyectos\Inventario\Website\_classes\DB.cs:line 149
+   at Website.Paginas.Page_Load(Object sender, EventArgs e) in C:\proyectos\Inventario\Website\Paginas.aspx.cs:line 199
+
+Error Id:1038130954
+User:ROBERTO_JAQUEZ
+Date:11/19/2025 9:23:55 AM
+Page:/
+Message :ORA-04068: existing state of packages has been discarded
+ORA-04061: existing state of package body "INV_DB.MAN_MANTENIMIENTOS_PKG" has been invalidated
+ORA-04065: not executed, altered or dropped package body "INV_DB.MAN_MANTENIMIENTOS_PKG"
+ORA-06508: PL/SQL: could not find program unit being called: "INV_DB.MAN_MANTENIMIENTOS_PKG"
+ORA-06512: at line 1
+StackTrace :   at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at Website.DB.EjecutarProcedimientoDevuelveParametros(String procedimiento, Object[][] parametros) in C:\proyectos\Inventario\Website\_classes\DB.cs:line 149
+   at Website.Paginas.Page_Load(Object sender, EventArgs e) in C:\proyectos\Inventario\Website\Paginas.aspx.cs:line 199
+
+Error Id:2047959525
+User:ROBERTO_JAQUEZ
+Date:11/19/2025 9:25:27 AM
+Page:/
+Message :ORA-04068: existing state of packages has been discarded
+ORA-04061: existing state of package body "INV_DB.MAN_MANTENIMIENTOS_PKG" has been invalidated
+ORA-04065: not executed, altered or dropped package body "INV_DB.MAN_MANTENIMIENTOS_PKG"
+ORA-06508: PL/SQL: could not find program unit being called: "INV_DB.MAN_MANTENIMIENTOS_PKG"
+ORA-06512: at line 1
+StackTrace :   at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at Website.DB.EjecutarProcedimientoDevuelveParametros(String procedimiento, Object[][] parametros) in C:\proyectos\Inventario\Website\_classes\DB.cs:line 149
+   at Website.Paginas.Page_Load(Object sender, EventArgs e) in C:\proyectos\Inventario\Website\Paginas.aspx.cs:line 199
+
+Error Id:614636125
+User:ROBERTO_JAQUEZ
+Date:11/19/2025 9:35:32 AM
+Page:/
+Message :ORA-04068: existing state of packages has been discarded
+ORA-04061: existing state of package body "INV_DB.MAN_MANTENIMIENTOS_PKG" has been invalidated
+ORA-04065: not executed, altered or dropped package body "INV_DB.MAN_MANTENIMIENTOS_PKG"
+ORA-06508: PL/SQL: could not find program unit being called: "INV_DB.MAN_MANTENIMIENTOS_PKG"
+ORA-06512: at line 1
+StackTrace :   at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at Website.DB.EjecutarProcedimientoDevuelveParametros(String procedimiento, Object[][] parametros) in C:\proyectos\Inventario\Website\_classes\DB.cs:line 149
+   at Website.Paginas.Page_Load(Object sender, EventArgs e) in C:\proyectos\Inventario\Website\Paginas.aspx.cs:line 199
+
+Error Id:564020601
+User:ROBERTO_JAQUEZ
+Date:11/19/2025 10:07:49 AM
+Page:/
+Message :ORA-04068: existing state of packages has been discarded
+ORA-04061: existing state of package body "INV_DB.MAN_MANTENIMIENTOS_PKG" has been invalidated
+ORA-04065: not executed, altered or dropped package body "INV_DB.MAN_MANTENIMIENTOS_PKG"
+ORA-06508: PL/SQL: could not find program unit being called: "INV_DB.MAN_MANTENIMIENTOS_PKG"
+ORA-06512: at line 1
+StackTrace :   at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at Website.DB.EjecutarProcedimientoDevuelveParametros(String procedimiento, Object[][] parametros) in C:\proyectos\Inventario\Website\_classes\DB.cs:line 149
+   at Website.Paginas.Page_Load(Object sender, EventArgs e) in C:\proyectos\Inventario\Website\Paginas.aspx.cs:line 199
+
+Error Id:2138403817
+User:ROBERTO_JAQUEZ
+Date:11/19/2025 10:09:27 AM
+Page:/
+Message :ORA-04068: existing state of packages has been discarded
+ORA-04061: existing state of package body "INV_DB.MAN_MANTENIMIENTOS_PKG" has been invalidated
+ORA-04065: not executed, altered or dropped package body "INV_DB.MAN_MANTENIMIENTOS_PKG"
+ORA-06508: PL/SQL: could not find program unit being called: "INV_DB.MAN_MANTENIMIENTOS_PKG"
+ORA-06512: at line 1
+StackTrace :   at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at Website.DB.EjecutarProcedimientoDevuelveParametros(String procedimiento, Object[][] parametros) in C:\proyectos\Inventario\Website\_classes\DB.cs:line 149
+   at Website.Paginas.Page_Load(Object sender, EventArgs e) in C:\proyectos\Inventario\Website\Paginas.aspx.cs:line 199
+
+Error Id:1301040047
+User:ROBERTO_JAQUEZ
+Date:11/19/2025 10:11:16 AM
+Page:/
+Message :ORA-04068: existing state of packages has been discarded
+ORA-04061: existing state of package body "INV_DB.MAN_MANTENIMIENTOS_PKG" has been invalidated
+ORA-04065: not executed, altered or dropped package body "INV_DB.MAN_MANTENIMIENTOS_PKG"
+ORA-06508: PL/SQL: could not find program unit being called: "INV_DB.MAN_MANTENIMIENTOS_PKG"
+ORA-06512: at line 1
+StackTrace :   at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at Website.DB.EjecutarProcedimiento(String procedimiento, Object[][] parametros) in C:\proyectos\Inventario\Website\_classes\DB.cs:line 107
+   at Website.Paginas.Page_Load(Object sender, EventArgs e) in C:\proyectos\Inventario\Website\Paginas.aspx.cs:line 62
+
+Error Id:706951258
+User:ROBERTO_JAQUEZ
+Date:11/19/2025 10:16:47 AM
+Page:/
+Message :ORA-04063: package body "INV_DB.MAN_MANTENIMIENTOS_PKG" has errors
+ORA-06508: PL/SQL: could not find program unit being called: "INV_DB.MAN_MANTENIMIENTOS_PKG"
+ORA-06512: at line 1
+StackTrace :   at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at Website.DB.EjecutarProcedimientoDevuelveParametros(String procedimiento, Object[][] parametros) in C:\proyectos\Inventario\Website\_classes\DB.cs:line 149
+   at Website.Paginas.Page_Load(Object sender, EventArgs e) in C:\proyectos\Inventario\Website\Paginas.aspx.cs:line 199
+
+Error Id:1187136734
+User:ROBERTO_JAQUEZ
+Date:11/19/2025 10:16:50 AM
+Page:/
+Message :ORA-04063: package body "INV_DB.MAN_MANTENIMIENTOS_PKG" has errors
+ORA-06508: PL/SQL: could not find program unit being called: "INV_DB.MAN_MANTENIMIENTOS_PKG"
+ORA-06512: at line 1
+StackTrace :   at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at Website.DB.EjecutarProcedimiento(String procedimiento, Object[][] parametros) in C:\proyectos\Inventario\Website\_classes\DB.cs:line 107
+   at Website.Paginas.Page_Load(Object sender, EventArgs e) in C:\proyectos\Inventario\Website\Paginas.aspx.cs:line 62
+
+Error Id:866363619
+User:ROBERTO_JAQUEZ
+Date:11/19/2025 10:16:52 AM
+Page:/
+Message :ORA-04063: package body "INV_DB.MAN_MANTENIMIENTOS_PKG" has errors
+ORA-06508: PL/SQL: could not find program unit being called: "INV_DB.MAN_MANTENIMIENTOS_PKG"
+ORA-06512: at line 1
+StackTrace :   at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at Website.DB.EjecutarProcedimiento(String procedimiento, Object[][] parametros) in C:\proyectos\Inventario\Website\_classes\DB.cs:line 107
+   at Website.Paginas.Page_Load(Object sender, EventArgs e) in C:\proyectos\Inventario\Website\Paginas.aspx.cs:line 62
+
+Error Id:736004620
+User:ROBERTO_JAQUEZ
+Date:11/19/2025 10:21:06 AM
+Page:/
+Message :ORA-04068: existing state of packages has been discarded
+ORA-04061: existing state of package body "INV_DB.MAN_MANTENIMIENTOS_PKG" has been invalidated
+ORA-04065: not executed, altered or dropped package body "INV_DB.MAN_MANTENIMIENTOS_PKG"
+ORA-06508: PL/SQL: could not find program unit being called: "INV_DB.MAN_MANTENIMIENTOS_PKG"
+ORA-06512: at line 1
+StackTrace :   at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at Website.DB.EjecutarProcedimientoDevuelveParametros(String procedimiento, Object[][] parametros) in C:\proyectos\Inventario\Website\_classes\DB.cs:line 149
+   at Website.Paginas.Page_Load(Object sender, EventArgs e) in C:\proyectos\Inventario\Website\Paginas.aspx.cs:line 199
+
+Error Id:1011397773
+User:ROBERTO_JAQUEZ
+Date:11/19/2025 10:30:46 AM
+Page:/
+Message :ORA-04068: existing state of packages has been discarded
+ORA-04061: existing state of package body "INV_DB.MAN_MANTENIMIENTOS_PKG" has been invalidated
+ORA-04065: not executed, altered or dropped package body "INV_DB.MAN_MANTENIMIENTOS_PKG"
+ORA-06508: PL/SQL: could not find program unit being called: "INV_DB.MAN_MANTENIMIENTOS_PKG"
+ORA-06512: at line 1
+StackTrace :   at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at Website.DB.EjecutarProcedimientoDevuelveParametros(String procedimiento, Object[][] parametros) in C:\proyectos\Inventario\Website\_classes\DB.cs:line 149
+   at Website.Paginas.Page_Load(Object sender, EventArgs e) in C:\proyectos\Inventario\Website\Paginas.aspx.cs:line 199
+
+Error Id:897323886
+User:ROBERTO_JAQUEZ
+Date:11/19/2025 10:56:33 AM
+Page:/
+Message :ORA-04068: existing state of packages has been discarded
+ORA-04061: existing state of package body "INV_DB.MAN_MANTENIMIENTOS_PKG" has been invalidated
+ORA-04065: not executed, altered or dropped package body "INV_DB.MAN_MANTENIMIENTOS_PKG"
+ORA-06508: PL/SQL: could not find program unit being called: "INV_DB.MAN_MANTENIMIENTOS_PKG"
+ORA-06512: at line 1
+StackTrace :   at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at Website.DB.EjecutarProcedimientoDevuelveParametros(String procedimiento, Object[][] parametros) in C:\proyectos\Inventario\Website\_classes\DB.cs:line 149
+   at Website.Paginas.Page_Load(Object sender, EventArgs e) in C:\proyectos\Inventario\Website\Paginas.aspx.cs:line 199
+
+Error Id:1048656751
+User:ROBERTO_JAQUEZ
+Date:11/25/2025 1:30:00 PM
+Page:/
+Message :ORA-04068: existing state of packages has been discarded
+ORA-04061: existing state of package body "INV_DB.MAN_MANTENIMIENTOS_PKG" has been invalidated
+ORA-04065: not executed, altered or dropped package body "INV_DB.MAN_MANTENIMIENTOS_PKG"
+ORA-06508: PL/SQL: could not find program unit being called: "INV_DB.MAN_MANTENIMIENTOS_PKG"
+ORA-06512: at line 1
+StackTrace :   at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at Website.DB.EjecutarProcedimientoDevuelveClob(String procedimiento, String parametroDeSalida, Object[][] parametros) in C:\proyectos\Inventario\Website\_classes\DB.cs:line 131
+   at Website.Paginas.Page_Load(Object sender, EventArgs e) in C:\proyectos\Inventario\Website\Paginas.aspx.cs:line 130
+
+Error Id:1605404815
+User:ROBERTO_JAQUEZ
+Date:11/25/2025 1:35:59 PM
+Page:/
+Message :ORA-04068: existing state of packages has been discarded
+ORA-04061: existing state of package body "INV_DB.MAN_MANTENIMIENTOS_PKG" has been invalidated
+ORA-04065: not executed, altered or dropped package body "INV_DB.MAN_MANTENIMIENTOS_PKG"
+ORA-06508: PL/SQL: could not find program unit being called: "INV_DB.MAN_MANTENIMIENTOS_PKG"
+ORA-06512: at line 1
+StackTrace :   at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at Website.DB.EjecutarProcedimientoDevuelveClob(String procedimiento, String parametroDeSalida, Object[][] parametros) in C:\proyectos\Inventario\Website\_classes\DB.cs:line 131
+   at Website.Paginas.Page_Load(Object sender, EventArgs e) in C:\proyectos\Inventario\Website\Paginas.aspx.cs:line 130
+
+Error Id:1468993748
+User:ROBERTO_JAQUEZ
+Date:11/25/2025 1:39:30 PM
+Page:/
+Message :StartIndex cannot be less than zero.
+Parameter name: startIndex
+StackTrace :   at System.String.Substring(Int32 startIndex, Int32 length)
+   at Website.Paginas.Page_Load(Object sender, EventArgs e) in C:\proyectos\Inventario\Website\Paginas.aspx.cs:line 159
+
+Error Id:681736241
+User:ROBERTO_JAQUEZ
+Date:11/25/2025 1:49:26 PM
+Page:/
+Message :StartIndex cannot be less than zero.
+Parameter name: startIndex
+StackTrace :   at System.String.Substring(Int32 startIndex, Int32 length)
+   at Website.Paginas.Page_Load(Object sender, EventArgs e) in C:\proyectos\Inventario\Website\Paginas.aspx.cs:line 159
+
+Error Id:990637876
+User:ROBERTO_JAQUEZ
+Date:11/25/2025 1:55:39 PM
+Page:/
+Message :StartIndex cannot be less than zero.
+Parameter name: startIndex
+StackTrace :   at System.String.Substring(Int32 startIndex, Int32 length)
+   at Website.Paginas.Page_Load(Object sender, EventArgs e) in C:\proyectos\Inventario\Website\Paginas.aspx.cs:line 159
+
+Error Id:1912941907
+User:ROBERTO_JAQUEZ
+Date:11/25/2025 1:58:01 PM
+Page:/
+Message :StartIndex cannot be less than zero.
+Parameter name: startIndex
+StackTrace :   at System.String.Substring(Int32 startIndex, Int32 length)
+   at Website.Paginas.Page_Load(Object sender, EventArgs e) in C:\proyectos\Inventario\Website\Paginas.aspx.cs:line 159
+
+Error Id:61762219
+User:ROBERTO_JAQUEZ
+Date:11/25/2025 2:01:14 PM
+Page:/
+Message :Thread was being aborted.
+StackTrace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at Website.Paginas.Page_Load(Object sender, EventArgs e) in C:\proyectos\Inventario\Website\Paginas.aspx.cs:line 173
+
