@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+	html,body {font-size:normal; margin:0px; width:100%; height:100%;}
+	body {
+	  background:            linear-gradient(to left top, LightSkyBlue, AliceBlue);
+      background-attachment: fixed; /*edit*/
+	}
+	#layout {width:100%; height:100%; margin:0px;}
+	
+	#title { 
+	  float:top;
+	  width:100%; background-image: url('./_images/cintillo.png'); 
+	  background-size: 100% 100%; 
+	  border-bottom: 1px solid silver;
+	  box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.1);
+	  margin-bottom:10px;
+	 }
+	#title_logo   {padding: 5px 5px 5px 10px; width:25px; height:25px;}
+	#title_name   {padding: 5px 5px 5px 5px; display:inline-block; font-size:24px; font-weight:bold;}
+	#title_user   {padding: 5px 10px 5px 5px;}
+	#title_inbox  {padding: 5px 10px 5px 5px;}
+	#title_user a {padding: 3px; background-color:white; border-radius:50%;}
+	#title_menu   {padding: 0px 5px 5px 8px;}
+	
+	.container {}
+	.dropdown {display: inline-block;}
+	.dropdown-submenu {
+	  position: relative;
+	}
+
+	.dropdown-submenu .dropdown-menu {
+	  top: 0;
+	  left: 100%;
+	  margin-top: -1px;
+	}
+  </style>
+</head>
+<body>
+ <table id="layout" width="100%" height="100%" cellpadding="0" cellspacing="0" margins="0">
+  <tr>
+   <td>  
+    <table id="title">
+	 <tr>
+	  <td width="1" id="title_logo"><img src="./_images/logo.png" width="24" height="24" /></td>
+	  <td width="*" id="title_name">Módulo de Recursos Humanos (QA)</td>
+	  <td width="1" id="title_user"><a href="/paginas.aspx?pag=Perfil del usuario">RJ</a></td>
+	 </tr>
+	 <tr>
+	  <td colspan="3">
+	 </tr>
+	 <tr>
+	  <td colspan="2" id="title_menu">
+	   <div class="dropdown">
+		<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Recursos Humanos
+		<span class="caret"></span></button>
+		<ul class="dropdown-menu">
+		  <li><a tabindex="-1" href="#">HTML</a></li>
+		  <li><a tabindex="-1" href="#">CSS</a></li>
+		  <li class="dropdown-submenu">
+			<a class="test" tabindex="-1" href="#">New dropdown <span class="caret"></span></a>
+			<ul class="dropdown-menu">
+			  <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+			  <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+			  <li class="dropdown-submenu">
+				<a class="test" href="#">Another dropdown <span class="caret"></span></a>
+				<ul class="dropdown-menu">
+				  <li><a href="#">3rd level dropdown</a></li>
+				  <li><a href="#">3rd level dropdown</a></li>
+				</ul>
+			  </li>
+			</ul>
+		  </li>
+		</ul>
+	   </div>
+	   <div class="dropdown">
+		<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Nóminas
+		<span class="caret"></span></button>
+		<ul class="dropdown-menu">
+		  <li><a tabindex="-1" href="#">HTML</a></li>
+		  <li><a tabindex="-1" href="#">CSS</a></li>
+		  <li class="dropdown-submenu">
+			<a class="test" tabindex="-1" href="#">New dropdown <span class="caret"></span></a>
+			<ul class="dropdown-menu">
+			  <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+			  <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+			  <li class="dropdown-submenu">
+				<a class="test" href="#">Another dropdown <span class="caret"></span></a>
+				<ul class="dropdown-menu">
+				  <li><a href="#">3rd level dropdown</a></li>
+				  <li><a href="#">3rd level dropdown</a></li>
+				</ul>
+			  </li>
+			</ul>
+		  </li>
+		</ul>
+	   </div>
+	   <div class="dropdown">
+		<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Control de Tiempo
+		<span class="caret"></span></button>
+		<ul class="dropdown-menu">
+		  <li><a tabindex="-1" href="#">HTML</a></li>
+		  <li><a tabindex="-1" href="#">CSS</a></li>
+		  <li class="dropdown-submenu">
+			<a class="test" tabindex="-1" href="#">New dropdown <span class="caret"></span></a>
+			<ul class="dropdown-menu">
+			  <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+			  <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+			  <li class="dropdown-submenu">
+				<a class="test" href="#">Another dropdown <span class="caret"></span></a>
+				<ul class="dropdown-menu">
+				  <li><a href="#">3rd level dropdown</a></li>
+				  <li><a href="#">3rd level dropdown</a></li>
+				</ul>
+			  </li>
+			</ul>
+		  </li>
+		</ul>
+	   </div>
+	   <div class="dropdown">
+		<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Inventario
+		<span class="caret"></span></button>
+		<ul class="dropdown-menu">
+		  <li><a tabindex="-1" href="#">HTML</a></li>
+		  <li><a tabindex="-1" href="#">CSS</a></li>
+		  <li class="dropdown-submenu">
+			<a class="test" tabindex="-1" href="#">New dropdown <span class="caret"></span></a>
+			<ul class="dropdown-menu">
+			  <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+			  <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+			  <li class="dropdown-submenu">
+				<a class="test" href="#">Another dropdown <span class="caret"></span></a>
+				<ul class="dropdown-menu">
+				  <li><a href="#">3rd level dropdown</a></li>
+				  <li><a href="#">3rd level dropdown</a></li>
+				</ul>
+			  </li>
+			</ul>
+		  </li>
+		</ul>
+	   </div>
+	   <div class="dropdown">
+		<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Facturación
+		<span class="caret"></span></button>
+		<ul class="dropdown-menu">
+		  <li><a tabindex="-1" href="#">HTML</a></li>
+		  <li><a tabindex="-1" href="#">CSS</a></li>
+		  <li class="dropdown-submenu">
+			<a class="test" tabindex="-1" href="#">New dropdown <span class="caret"></span></a>
+			<ul class="dropdown-menu">
+			  <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+			  <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+			  <li class="dropdown-submenu">
+				<a class="test" href="#">Another dropdown <span class="caret"></span></a>
+				<ul class="dropdown-menu">
+				  <li><a href="#">3rd level dropdown</a></li>
+				  <li><a href="#">3rd level dropdown</a></li>
+				</ul>
+			  </li>
+			</ul>
+		  </li>
+		</ul>
+	   </div>
+	   <div class="dropdown">
+		<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Cuentas por Cobrar
+		<span class="caret"></span></button>
+		<ul class="dropdown-menu">
+		  <li><a tabindex="-1" href="#">HTML</a></li>
+		  <li><a tabindex="-1" href="#">CSS</a></li>
+		  <li class="dropdown-submenu">
+			<a class="test" tabindex="-1" href="#">New dropdown <span class="caret"></span></a>
+			<ul class="dropdown-menu">
+			  <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+			  <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+			  <li class="dropdown-submenu">
+				<a class="test" href="#">Another dropdown <span class="caret"></span></a>
+				<ul class="dropdown-menu">
+				  <li><a href="#">3rd level dropdown</a></li>
+				  <li><a href="#">3rd level dropdown</a></li>
+				</ul>
+			  </li>
+			</ul>
+		  </li>
+		</ul>
+	   </div>
+	   <div class="dropdown">
+		<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Cuentas por Pagar
+		<span class="caret"></span></button>
+		<ul class="dropdown-menu">
+		  <li><a tabindex="-1" href="#">HTML</a></li>
+		  <li><a tabindex="-1" href="#">CSS</a></li>
+		  <li class="dropdown-submenu">
+			<a class="test" tabindex="-1" href="#">New dropdown <span class="caret"></span></a>
+			<ul class="dropdown-menu">
+			  <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+			  <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+			  <li class="dropdown-submenu">
+				<a class="test" href="#">Another dropdown <span class="caret"></span></a>
+				<ul class="dropdown-menu">
+				  <li><a href="#">3rd level dropdown</a></li>
+				  <li><a href="#">3rd level dropdown</a></li>
+				</ul>
+			  </li>
+			</ul>
+		  </li>
+		</ul>
+	   </div>
+	   <div class="dropdown">
+		<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Seguridad
+		<span class="caret"></span></button>
+		<ul class="dropdown-menu">
+		  <li><a tabindex="-1" href="#">HTML</a></li>
+		  <li><a tabindex="-1" href="#">CSS</a></li>
+		  <li class="dropdown-submenu">
+			<a class="test" tabindex="-1" href="#">New dropdown <span class="caret"></span></a>
+			<ul class="dropdown-menu">
+			  <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+			  <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+			  <li class="dropdown-submenu">
+				<a class="test" href="#">Another dropdown <span class="caret"></span></a>
+				<ul class="dropdown-menu">
+				  <li><a href="#">3rd level dropdown</a></li>
+				  <li><a href="#">3rd level dropdown</a></li>
+				</ul>
+			  </li>
+			</ul>
+		  </li>
+		</ul>
+	   </div>
+      </td>
+      <td width="1" id="title_inbox"><a href="/paginas.aspx?pag=Buzón de Mensajes"><img src="./_images/mail.png" /></a></td>
+	 </tr>
+    </table>
+   </td>
+  </tr>
+  <tr>
+   <td height="*" align="center">
+	<table summary="tal cosa" border="1" style="inline-block;">
+	 <tr>
+	  <th>head 1</th>
+	  <th>head 2</th>
+	  <th>head 3</th>
+	  <th>head 4</th>
+	  <th>head 5</th>
+	 </tr>
+	 <tr>
+	  <td>col r1 1</td>
+	  <td>col r1 2</td>
+	  <td>col r1 3</td>
+	  <td>col r1 4</td>
+	  <td>col r1 5</td>
+	 </tr>
+	 <tr>
+	  <td>col r2 1</td>
+	  <td>col r2 2</td>
+	  <td>col r2 3</td>
+	  <td>col r2 4</td>
+	  <td>col r2 5</td>
+	 </tr>
+	 <tr>
+	  <td>col r3 1</td>
+	  <td>col r3 2</td>
+	  <td>col r3 3</td>
+	  <td>col r3 4</td>
+	  <td>col r3 5</td>
+	 </tr>
+	 <tr>
+	  <td>col r3 1</td>
+	  <td>col r3 2</td>
+	  <td>col r3 3</td>
+	  <td>col r3 4</td>
+	  <td>col r3 5</td>
+	 </tr>
+	 <tr>
+	  <td>col r3 1</td>
+	  <td>col r3 2</td>
+	  <td>col r3 3</td>
+	  <td>col r3 4</td>
+	  <td>col r3 5</td>
+	 </tr>
+	 <tr>
+	  <td>col r3 1</td>
+	  <td>col r3 2</td>
+	  <td>col r3 3</td>
+	  <td>col r3 4</td>
+	  <td>col r3 5</td>
+	 </tr>
+	 <tr>
+	  <td>col r3 1</td>
+	  <td>col r3 2</td>
+	  <td>col r3 3</td>
+	  <td>col r3 4</td>
+	  <td>col r3 5</td>
+	 </tr>
+	 <tr>
+	  <td>col r3 1</td>
+	  <td>col r3 2</td>
+	  <td>col r3 3</td>
+	  <td>col r3 4</td>
+	  <td>col r3 5</td>
+	 </tr>
+	 <tr>
+	  <td>col r3 1</td>
+	  <td>col r3 2</td>
+	  <td>col r3 3</td>
+	  <td>col r3 4</td>
+	  <td>col r3 5</td>
+	 </tr>
+	 <tr>
+	  <td>col r3 1</td>
+	  <td>col r3 2</td>
+	  <td>col r3 3</td>
+	  <td>col r3 4</td>
+	  <td>col r3 5</td>
+	 </tr>
+	 <tr>
+	  <td>col r3 1</td>
+	  <td>col r3 2</td>
+	  <td>col r3 3</td>
+	  <td>col r3 4</td>
+	  <td>col r3 5</td>
+	 </tr>
+	 <tr>
+	  <td>col r3 1</td>
+	  <td>col r3 2</td>
+	  <td>col r3 3</td>
+	  <td>col r3 4</td>
+	  <td>col r3 5</td>
+	 </tr>
+	 <tr>
+	  <td>col r3 1</td>
+	  <td>col r3 2</td>
+	  <td>col r3 3</td>
+	  <td>col r3 4</td>
+	  <td>col r3 5</td>
+	 </tr>
+	</table>
+   </td>
+  </tr>
+ </table>
+
+
+</body>
+ sdfasdas 
+
+</html>

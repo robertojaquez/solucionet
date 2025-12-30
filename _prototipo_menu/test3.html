@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+   html,body,#fullscreen {font-family: Arial, sans-serif; width:100%; height:100%; margin:0px; font-size:normal;}
+   body {background: linear-gradient(to left top, LightSkyBlue, AliceBlue); background-attachment: fixed;}
+
+   #fullscreen   {border-collapse:collapse; border:0px; margin:0px; overflow:hidden;}
+   #fullscreen tr td {border:0px; margin:0px;}
+   #head {
+     height:80px; min-height:90px; max-height:90px; 
+     background-image: url('./_images/cintillo.png'); 
+	 background-size: 100% 100%;
+	  border-bottom: 1px solid silver;
+	  box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.1);
+	  margin-bottom:10px;
+   }
+   #head_logo	 {border:0px; margin-left:5px; height:65px; width:65px;}
+   #head_title	 {border:0px; margin-left:10px; font-size:26px; font-weight:bold;}
+   #head_profile {text-align:center; padding-right:10px;}
+   #head_user	 {border:0px; height:30px; width:30px; border-radius:50%; background-color:white; padding:5px;}
+   #head_inbox	 {border:0px; padding-top:5px; }
+   
+   .head_menu    {background-color:white; border: 1px solid silver; border-radius:4px;}
+   /* phones */
+   @media only screen and (max-width: 768px) {
+	  #head {height:65px;}
+	  #head_user {height:20px; width:20px; padding:3px; font-size:small;}
+	  #head_inbox {padding-top:2px;}
+      .head_menu,.dropdown,.dropdown-menu,.dropdown-submenu, dropdown-backdrop {padding:0px 3px 0px 3px; font-size:x-small;}
+      #head_logo	 {height:45px; width:45px;}
+	  .container {font-size:x-small;}
+	  .large {display:none;}
+	  .dropdown-menu>li>a {padding-left:5px;padding-right:5px;}
+	  .dropdown-menu,.dropdown-submenu {min-width:100px;}
+   }
+   /* tablets ans monitors */
+   @media only screen and (min-width: 769px) {
+	  .small {display:none;}
+   }
+   #contents 	 {border:0px; padding:5px; text-align:center; vertical-align:middle; overflow: auto; box-sizing: border-box; height: calc(100vh - 100px);}
+
+   #cosa {display:inline-block;}
+   
+	.container {text-align:left; margin:0px; padding-left:10px;}
+	
+	.dropdown {display: inline-block;}
+	.dropdown-submenu {
+	  position: relative;
+	}
+
+	.dropdown-submenu .dropdown-menu {
+	  top: 0;
+	  left: 100%;
+	  margin-top: -1px;
+	}
+   
+  </style>
+ </head>
+ <body>
+  <table id="fullscreen">
+   <tr id="head">
+    <td width="1"><img id="head_logo" src="./_images/logo.png" width="100%" height="100%" /></td>
+    <td width="*">
+	 <div id="head_title">Nombre del Sistema</div>
+	 <div class="container small">
+	  <div class="dropdown" style="display:inline;">
+		<button class="btn btn-sm dropdown-toggle head_menu" type="button" data-toggle="dropdown">Compañías
+		<span class="caret"></span></button>
+		<ul class="dropdown-menu">
+		  <li><a tabindex="-1" href="#">HTML</a></li>
+		  <li><a tabindex="-1" href="#">CSS</a></li>
+		  <li class="dropdown-submenu">
+			<a class="test" tabindex="-1" href="#">New dropdown <span class="caret"></span></a>
+			<ul class="dropdown-menu">
+			  <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+			  <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+			  <li class="dropdown-submenu">
+				<a class="test" href="#">Another dropdown <span class="caret"></span></a>
+				<ul class="dropdown-menu">
+				  <li><a href="#">3rd level dropdown</a></li>
+				  <li><a href="#">3rd level dropdown</a></li>
+				</ul>
+			  </li>
+			</ul>
+		  </li>
+		</ul>
+	  </div>
+	  <div class="dropdown" style="display:inline;">
+		<button class="btn btn-sm dropdown-toggle head_menu" type="button" data-toggle="dropdown">Módulos
+		<span class="caret"></span></button>
+		<ul class="dropdown-menu">
+		  <li><a tabindex="-1" href="#">HTML</a></li>
+		  <li><a tabindex="-1" href="#">CSS</a></li>
+		  <li class="dropdown-submenu">
+			<a class="test" tabindex="-1" href="#">New dropdown <span class="caret"></span></a>
+			<ul class="dropdown-menu">
+			  <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+			  <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+			  <li class="dropdown-submenu">
+				<a class="test" href="#">Another dropdown <span class="caret"></span></a>
+				<ul class="dropdown-menu">
+				  <li><a href="#">3rd level dropdown</a></li>
+				  <li><a href="#">3rd level dropdown</a></li>
+				</ul>
+			  </li>
+			</ul>
+		  </li>
+		</ul>
+	  </div>
+	 </div>
+	 <div class="container large">
+	  <div class="dropdown" style="display:inline;">
+		<button class="btn btn-sm dropdown-toggle head_menu" type="button" data-toggle="dropdown">Recursos Humanos
+		<span class="caret"></span></button>
+		<ul class="dropdown-menu">
+		  <li><a tabindex="-1" href="#">HTML</a></li>
+		  <li><a tabindex="-1" href="#">CSS</a></li>
+		  <li class="dropdown-submenu">
+			<a class="test" tabindex="-1" href="#">New dropdown <span class="caret"></span></a>
+			<ul class="dropdown-menu">
+			  <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+			  <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+			  <li class="dropdown-submenu">
+				<a class="test" href="#">Another dropdown <span class="caret"></span></a>
+				<ul class="dropdown-menu">
+				  <li><a href="#">3rd level dropdown</a></li>
+				  <li><a href="#">3rd level dropdown</a></li>
+				</ul>
+			  </li>
+			</ul>
+		  </li>
+		</ul>
+	  </div>
+	  <div class="dropdown" style="display:inline;">
+		<button class="btn btn-sm dropdown-toggle head_menu" type="button" data-toggle="dropdown">Nóminas
+		<span class="caret"></span></button>
+		<ul class="dropdown-menu">
+		  <li><a tabindex="-1" href="#">HTML</a></li>
+		  <li><a tabindex="-1" href="#">CSS</a></li>
+		  <li class="dropdown-submenu">
+			<a class="test" tabindex="-1" href="#">New dropdown <span class="caret"></span></a>
+			<ul class="dropdown-menu">
+			  <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+			  <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+			  <li class="dropdown-submenu">
+				<a class="test" href="#">Another dropdown <span class="caret"></span></a>
+				<ul class="dropdown-menu">
+				  <li><a href="#">3rd level dropdown</a></li>
+				  <li><a href="#">3rd level dropdown</a></li>
+				</ul>
+			  </li>
+			</ul>
+		  </li>
+		</ul>
+	  </div>
+	  <div class="dropdown" style="display:inline;">
+		<button class="btn btn-sm dropdown-toggle head_menu" type="button" data-toggle="dropdown">Control de Tiempo
+		<span class="caret"></span></button>
+		<ul class="dropdown-menu">
+		  <li><a tabindex="-1" href="#">HTML</a></li>
+		  <li><a tabindex="-1" href="#">CSS</a></li>
+		  <li class="dropdown-submenu">
+			<a class="test" tabindex="-1" href="#">New dropdown <span class="caret"></span></a>
+			<ul class="dropdown-menu">
+			  <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+			  <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+			  <li class="dropdown-submenu">
+				<a class="test" href="#">Another dropdown <span class="caret"></span></a>
+				<ul class="dropdown-menu">
+				  <li><a href="#">3rd level dropdown</a></li>
+				  <li><a href="#">3rd level dropdown</a></li>
+				</ul>
+			  </li>
+			</ul>
+		  </li>
+		</ul>
+	  </div>
+	  <div class="dropdown" style="display:inline;">
+		<button class="btn btn-sm dropdown-toggle head_menu" type="button" data-toggle="dropdown">Inventario
+		<span class="caret"></span></button>
+		<ul class="dropdown-menu">
+		  <li><a tabindex="-1" href="#">HTML</a></li>
+		  <li><a tabindex="-1" href="#">CSS</a></li>
+		  <li class="dropdown-submenu">
+			<a class="test" tabindex="-1" href="#">New dropdown <span class="caret"></span></a>
+			<ul class="dropdown-menu">
+			  <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+			  <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+			  <li class="dropdown-submenu">
+				<a class="test" href="#">Another dropdown <span class="caret"></span></a>
+				<ul class="dropdown-menu">
+				  <li><a href="#">3rd level dropdown</a></li>
+				  <li><a href="#">3rd level dropdown</a></li>
+				</ul>
+			  </li>
+			</ul>
+		  </li>
+		</ul>
+	  </div>
+	  <div class="dropdown" style="display:inline;">
+		<button class="btn btn-sm dropdown-toggle head_menu" type="button" data-toggle="dropdown">Facturación
+		<span class="caret"></span></button>
+		<ul class="dropdown-menu">
+		  <li><a tabindex="-1" href="#">HTML</a></li>
+		  <li><a tabindex="-1" href="#">CSS</a></li>
+		  <li class="dropdown-submenu">
+			<a class="test" tabindex="-1" href="#">New dropdown <span class="caret"></span></a>
+			<ul class="dropdown-menu">
+			  <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+			  <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+			  <li class="dropdown-submenu">
+				<a class="test" href="#">Another dropdown <span class="caret"></span></a>
+				<ul class="dropdown-menu">
+				  <li><a href="#">3rd level dropdown</a></li>
+				  <li><a href="#">3rd level dropdown</a></li>
+				</ul>
+			  </li>
+			</ul>
+		  </li>
+		</ul>
+	  </div>
+	  <div class="dropdown" style="display:inline;">
+		<button class="btn btn-sm dropdown-toggle head_menu" type="button" data-toggle="dropdown">Cuentas por Cobrar
+		<span class="caret"></span></button>
+		<ul class="dropdown-menu">
+		  <li><a tabindex="-1" href="#">HTML</a></li>
+		  <li><a tabindex="-1" href="#">CSS</a></li>
+		  <li class="dropdown-submenu">
+			<a class="test" tabindex="-1" href="#">New dropdown <span class="caret"></span></a>
+			<ul class="dropdown-menu">
+			  <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+			  <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+			  <li class="dropdown-submenu">
+				<a class="test" href="#">Another dropdown <span class="caret"></span></a>
+				<ul class="dropdown-menu">
+				  <li><a href="#">3rd level dropdown</a></li>
+				  <li><a href="#">3rd level dropdown</a></li>
+				</ul>
+			  </li>
+			</ul>
+		  </li>
+		</ul>
+	  </div>
+	  <div class="dropdown" style="display:inline;">
+		<button class="btn btn-sm dropdown-toggle head_menu" type="button" data-toggle="dropdown">Cuentas por Pagar
+		<span class="caret"></span></button>
+		<ul class="dropdown-menu">
+		  <li><a tabindex="-1" href="#">HTML</a></li>
+		  <li><a tabindex="-1" href="#">CSS</a></li>
+		  <li class="dropdown-submenu">
+			<a class="test" tabindex="-1" href="#">New dropdown <span class="caret"></span></a>
+			<ul class="dropdown-menu">
+			  <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+			  <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+			  <li class="dropdown-submenu">
+				<a class="test" href="#">Another dropdown <span class="caret"></span></a>
+				<ul class="dropdown-menu">
+				  <li><a href="#">3rd level dropdown</a></li>
+				  <li><a href="#">3rd level dropdown</a></li>
+				</ul>
+			  </li>
+			</ul>
+		  </li>
+		</ul>
+	  </div>
+	  <div class="dropdown" style="display:inline;">
+		<button class="btn btn-sm dropdown-toggle head_menu" type="button" data-toggle="dropdown">Seguridad
+		<span class="caret"></span></button>
+		<ul class="dropdown-menu">
+		  <li><a tabindex="-1" href="#">HTML</a></li>
+		  <li><a tabindex="-1" href="#">CSS</a></li>
+		  <li class="dropdown-submenu">
+			<a class="test" tabindex="-1" href="#">New dropdown <span class="caret"></span></a>
+			<ul class="dropdown-menu">
+			  <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+			  <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+			  <li class="dropdown-submenu">
+				<a class="test" href="#">Another dropdown <span class="caret"></span></a>
+				<ul class="dropdown-menu">
+				  <li><a href="#">3rd level dropdown</a></li>
+				  <li><a href="#">3rd level dropdown</a></li>
+				</ul>
+			  </li>
+			</ul>
+		  </li>
+		</ul>
+	  </div>
+	 </div>
+	</td>
+    <td width="1" id="head_profile">
+	 <div id="head_user"><a href="/paginas.aspx?pag=2">RJ</a></div>
+	 <div id="head_inbox"><a href="/paginas.aspx?pag=1"><img src="./_images/mail.png" /></a></div>
+	</td>
+   </tr>  
+   <tr>
+    <td colspan="3">
+	 <div id="contents">
+		<table id="cosa" border="1" cellpadding="3" cellspacing="0">
+		 <tr>
+		  <th>head 1</th>
+		  <th>head 2</th>
+		  <th>head 3</th>
+		  <th>head 4</th>
+		  <th>head 5</th>
+		 </tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		 <tr><td>col r3 1</td><td>col r3 2</td><td>col r3 3</td><td>col r3 4</td><td>col r3 5</td></tr>
+		</table>
+      <br><br>esto es un mensaje al final
+	 </div>
+	</td>
+   </tr>
+  </table>
+ 
+  <script>
+  $(document).ready(function(){
+    $('.dropdown-submenu a.test').on("click", function(e){
+      $(this).next('ul').toggle();
+      e.stopPropagation();
+      e.preventDefault();
+    });
+  });
+  </script>
+ </body>
+</html>

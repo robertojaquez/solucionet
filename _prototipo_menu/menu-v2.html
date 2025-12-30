@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+   html,body,#page {height:100%; width:100%; margin:0px;}
+   #title {width: 100%; position: relative; background-image: url('./_images/cintillo.png'); background-size: 100% 100%; }
+   #title-logo  {display: inline-block;}
+   #title-name  {display: inline-block;font-size:24; font-weight:bold;}
+   #title-menu  {display: inline-block;}
+   #title-user  {position: absolute; right: 0px; top:0px;}
+   #title-inbox {position: absolute; right: 0px; bottom:0px;}
+  </style>
+ </head>
+ <body>
+  <div id="title">
+   <div style="width:100%;">
+    <div id="title-logo" style="display:inline-block;"><img src="./_images/logo.png" width="24" height="24" /></div>
+    <div id="title-name" style="display:inline-block;">Solucionet</div>
+   </div>
+    <div id="title-menu">
+    <div id="title-user">U</div>
+    <div id="title-inbox">I</div>
+  </div>
+  <div id="page-content">
+   <table summary="tal cosa" border="1">
+    <tr>
+	 <th>col 1</th>
+	 <th>col 2</th>
+	 <th>col 3</th>
+	 <th>col 4</th>
+	 <th>col 5</th>
+	</tr>
+	<tr>
+	 <td>col 1</td>
+	 <td>col 2</td>
+	 <td>col 3</td>
+	 <td>col 4</td>
+	 <td>col 5</td>
+	</tr>
+   </table>
+  </div>
+
+  <script>
+   $(document).ready(function(){
+     $('.dropdown-submenu a.test').on("click", function(e){
+       $(this).next('ul').toggle();
+       e.stopPropagation();
+       e.preventDefault();
+     });
+   });
+  </script>
+ </body>
+</html>
